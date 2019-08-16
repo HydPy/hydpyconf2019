@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head section  -->
+{% include head.html %}
+
+<body>
+
+    <!-- header section -->
+    {% include header.html %}
+
+    <div id="hero-block" class="hero-block" style="height: 300px;">
+		<div class="hero-block-mask"></div>
+		<div class="container">
+			<div class="hero-text-block">
+				<h1 class="hero-heading mb-2">{{ page.title | upcase }}</h1>
+			</div><!--//hero-text-block-->
+		</div><!--//container-->
+
+	</div><!--//hero-block-->
+
+    <section class="section">
+        <div class="container">
+            {{ content }}
+        </div>
+    </section>
+
+    <!-- footer section -->
+    {% include footer.html %}
+
+    <!-- scripts include -->
+    {% include scripts.html %}
+
+</body>
+
+</html>

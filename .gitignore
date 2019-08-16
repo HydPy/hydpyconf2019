@@ -1,0 +1,18 @@
+### General ###
+*.lock
+
+### Jekyll ###
+_site/
+
+### Sass ###
+.sass-cache
+
+fontawesome/
+
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+.DS_store
+.idea/
+Icon*
