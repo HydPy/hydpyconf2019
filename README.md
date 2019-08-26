@@ -1,47 +1,37 @@
-<a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/" target="_blank"><img src="https://themes.3rdwavemedia.com/wp-content/uploads/2019/07/Bootstrap-Tech-Conference-Template-DevConf-Pormo.jpg" alt="Bootstrap 4 Conference Template for Tech Conference and Event" /></a>
+# Python Conference Hyderabad 2019
 
-## Theme Details & Demo
+### About Conference
 
-**Demo:** https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/
-
-DevConf is a free Bootstrap 4 conference template perfect for building marketing sites for tech conferences and events. 
-
-## Author & License
-
-This Bootstrap template is made by UX/UI designer [Xiaoying Riley](https://twitter.com/3rdwave_themes) for developers and is 100% FREE as long as you **keep the footer attribution link**. You do not have the rights to resell, sublicense or redistribute (even for free) the template on its own or as a separate attachment from any of your work.
-
-If you'd like to **use the template without the footer attribution**, you can [buy the **commercial license** via the theme website](https://themes.3rdwavemedia.com/bootstrap-templates/free/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/)
-
-#### Follow Xiaoying
-
-[Twitter](https://twitter.com/3rdwave_themes)
-
-[Facebook](https://www.facebook.com/3rdwavethemes/)
-
-[Dribbble](https://dribbble.com/Xiaoying)
-
-[Medium](https://medium.com/@3rdwave_themes)
-
-[Linkedin](https://uk.linkedin.com/in/xiaoying)
+PyConf Hyderabad is the regional gathering for the community that uses and develops the open-source Python programming language. PyConf Hyderabad is organised by the Hyderabad Python User Group (HydPy) for the community. This conference is about sharing of knowledge, experience and allowing the growth of ideas which could lead to spillover of stronger ties between developers and users of Python with human interactions.
 
 
-## Latest Version
-**v1.0** - 31 July 2019
+### About Us
 
-[Changelog](https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/?target=changelog)
+Hyderabad Python User Group (HydPy) is community driven group to promote Python in Hyderabad. HydPy has been conducting monthly Meetups & workshops in Hyderabad for last 2 years and it has over 4500 members. We work together with other communities in particular, python and in general Open Source Software (OSS) related groups within Hyderabad and the rest of India to further expand the usage and increase users of OSS. HydPy is a recognised regional community by Python Software Society India (PSSI) and global Python Software Foundation (PSF).
 
 
-## Features
+## Local development
 
--  Fully Responsive
--  HTML5 + CSS3
--  Built on Bootstrap 4
--  **SCSS** source files included
--  1500+ FontAwesome 5 icons
--  Compatible with all modern browsers
+Check if you have [all requirements for local environment](http://jekyllrb.com/docs/installation/).
+To install all development dependencies install [Bundler](http://bundler.io/).
+```bash
+    gem install bundler
+```
+and run next command from root folder:
 
-## Credits
-- [Bootstrap](https://getbootstrap.com/)
-- [FontAwesome](https://fortawesome.github.io/Font-Awesome/)
-- [Google fonts](https://fonts.google.com/)
-- Image Credit - [EuropeanaTech Conference](https://www.flickr.com/photos/europeanaimages2/albums/72157669104892268) and [TechCrunch](https://www.flickr.com/photos/techcrunch/) [Creative Commons 2.0 license](https://creativecommons.org/licenses/by/2.0/deed.en) (All images are shown for demonstration purposes only)
+```bash
+  bundle install
+```  
+
+To start Jekyll run:
+```bash
+    jekyll serve -w
+```
+Site will be available at http://127.0.0.1:4000/ or http://localhost:4000/ (on Windows)
+
+
+
+### License
+This project is based on the Bootstrap template, which is made by UX/UI designer Xiaoying Riley for developers and is 100% FREE as long as you keep the footer attribution link. You do not have the rights to resell, sublicense or redistribute (even for free) the template on its own or as a separate attachment from any of your work.
+
+If you'd like to use the template without the footer attribution, you can buy the commercial license via the theme website
