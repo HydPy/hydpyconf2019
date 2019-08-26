@@ -4,5 +4,11 @@ mail: hydpy@example.com
 twitter: hydpy
 github: https://github.com/hydpy
 
+baseurl: '/'
+
 tickets_link: ""
 schedule_link: ""
+
+sass:
+  sass_dir: _sass
+  style: compressed
