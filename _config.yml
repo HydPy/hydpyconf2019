@@ -30,19 +30,14 @@ sass:
   sass_dir: _sass
   style: compressed
 
-# Build settings
-markdown: kramdown
-plugins:
-  - jekyll-feed
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
+exclude:
+  - Gemfile
+  - Gemfile.lock
 #   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
