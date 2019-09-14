@@ -3,4 +3,6 @@ layout: flexible
 title: Faq
 ---
 
-### Hey, this is flexible template Use it!!
+<div>
+    <h4>Frequently added questions:</h4>
+</div>
