@@ -27,7 +27,7 @@ You may also ask to be put in touch with the conference chair - Manivannan Elang
 <p>If the matter is especially urgent, please call/contact any of these individuals:</p>
 
 <p>Manivannan Elangovan<br />
-Chirag Choudary<br /></p>
+Ramanathan Ramakrishnamoorthy<br /></p>
 
 <p>Conference staff will be happy to help participants contact venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.</p>
 
