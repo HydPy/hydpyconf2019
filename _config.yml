@@ -25,6 +25,7 @@ github:  https://github.com/hydpy
 
 tickets_link: ""
 schedule_link: ""
+cfp_link: ""
 
 sass:
   sass_dir: _sass
