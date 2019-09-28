@@ -613,13 +613,6 @@
 	}
  }
 
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) {
-    .header-has-bg {
-		background: $theme-bg-dark;
-	}
-}
-
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) { 
 	
