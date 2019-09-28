@@ -25,7 +25,7 @@ github:  https://github.com/hydpy
 
 tickets_link: ""
 schedule_link: ""
-cfp_link: ""
+cfp_link: "https://www.papercall.io/pyconf-hyderabad2019"
 
 sass:
   sass_dir: _sass
