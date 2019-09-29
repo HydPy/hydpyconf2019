@@ -1,30 +1,7 @@
-$(window).on('load', function() {
-         
-     if ($(window).scrollTop() > 80 ) {
-         $('#header').addClass('header-shrink');
-     }
-     else {
-         $('#header').removeClass('header-shrink');             
-     }
-}); 
+$(document).ready(function() {  
 
-
-$(document).ready(function() {
-	
-	/* ======= Fixed Header animation ======= */ 
-        
-    $(window).on('scroll', function() {
-         
-         if ($(window).scrollTop() > 100 ) {
-             $('#header').addClass('header-shrink');
-         }
-         else {
-             $('#header').removeClass('header-shrink');             
-         }
-         
-         
-    }); 
-    
+    /* ======== Add relopener for target blank urls ======== */
+    $("a[target='_blank']").attr("rel", "noopener");
     
     /* ======= Scrollspy ======= */
     $('body').scrollspy({ target: '#header', offset: 400});
@@ -41,16 +18,7 @@ $(document).ready(function() {
 			$('.navbar-toggler').trigger('click');
 		}
 		
-	});
-	
-	/* ====== test ===== */
-	$('#navigation').on('show.bs.collapse', function () {
-	   $('.header').addClass('header-has-bg');
-	});
-	$('#navigation').on('hide.bs.collapse', function () {
-	   $('.header').removeClass('header-has-bg');
-	});
-    
+	});    
 	
 	/* ======= Countdown ========= */
 	// set the date we're counting down to
@@ -99,7 +67,4 @@ $(document).ready(function() {
      
     }, 1000);
     
-    
-        
-
 });
