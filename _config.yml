@@ -18,14 +18,32 @@ mail: hydpy@python.org
 description: >- # this means to ignore newlines until "baseurl:"
   PyConf Hyderabad is an yearly tech conference about python, it's projects and development
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://pyconf.hydpy.org/2019/" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter: https://twitter.com/hydPython
 github:  https://github.com/hydpy
 
+# links
 tickets_link: ""
 schedule_link: ""
 cfp_link: "https://www.papercall.io/pyconf-hyderabad2019"
+social_image_link: "https://pyconf.hydpy.org/2019/assets/images/pyconflogo_ai_compressed.jpg"
+
+# Location Block
+locationBlockTitle: "Location"
+eventLocationName: "Conference Hall"
+eventLocationLink: "https://www.iiit.ac.in/"
+eventStreetAddress: "IIIT Hyderabad"
+eventAddressLocality: "Hyderabad"
+eventAddressLocalityRegion: "Telangana"
+eventPostalCode: "500032"
+eventAddressCountry: "India"
+eventStartTime: "2017-10-07T09:30"
+eventDoorTime: "09:00"
+eventEndTime: "2017-10-08T17:00"
+eventPlaceCoordinates: "17.4455415, 78.3471251"
+mapCenterCoordinates: "17.4455415, 78.3471251"
+mapMobileCenterCoordinates: "17.4455415, 78.3471251"
 
 sass:
   sass_dir: _sass
