@@ -14,13 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: PyConf Hyderabad 2019
-mail: hydpy@python.org
+mail: contact@hydpy.org
 description: >- # this means to ignore newlines until "baseurl:"
   PyConf Hyderabad is an yearly tech conference about python, it's projects and development
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-twitter: https://twitter.com/hydPython
+twitter: https://twitter.com/pyconfhyd
 github:  https://github.com/hydpy
 
 tickets_link: ""
