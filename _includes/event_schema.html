@@ -1,0 +1,32 @@
+<!-- Event schema -->
+<script type="application/ld+json">
+  [{
+      "@context" : "http://schema.org",
+      "@type" : "Event",
+      "name" : "{{ site.title }}",
+      "description": "{{ site.description }}",
+      "image" : "{{ site.social_image_link}}",
+      "url" : "{{ site.url }}",
+      "startDate" : "{{ site.eventStartTime }}",
+      "doorTime" : "{{ site.eventDoorTime }}",
+      "endDate" : "{{ site.eventEndTime }}",
+      "location" : {
+          "@type" : "Place",
+          "name" : "{{ site.eventLocationName }}",
+          "sameAs" : "{{ site.eventLocationLink }}",
+          "address" : {
+              "@type" : "PostalAddress",
+              "addressRegion" : "Gachibowli",
+              "postalCode" : "{{ site.eventPostalCode }}",
+              "addressCountry" : "India"
+          },
+          "geo" : {
+              "@type" : "GeoCoordinates",
+              {% assign coordinates = site.eventPlaceCoordinates | split:"," %}
+              "latitude" : "{{ coordinates[0] }}",
+              "longitude" : "{{ coordinates[1] }}"
+          }
+      },
+      "eventStatus" : "EventScheduled"
+  }]
+</script>

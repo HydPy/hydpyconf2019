@@ -11,9 +11,11 @@
 					</button>
 					
 					<div id="navigation" class="navbar-collapse collapse  justify-content-lg-end mr-lg-3">
-						<ul class="nav navbar-nav">
+						<ul class="nav navbar-nav" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
 							{% for navitem in site.data.navigation %}
-								<li class="nav-item"><a class="nav-link scrollto" href="index.html{{ navitem.href }}">{{ navitem.item }}</a></li>
+								<li class="nav-item" itemprop="name">
+									<a itemprop="url" class="nav-link scrollto" href="index.html{{ navitem.href }}">{{ navitem.item }}</a>
+								</li>
 							{% endfor %}
 						</ul><!--//nav-->
 					</div><!--//navabr-collapse-->

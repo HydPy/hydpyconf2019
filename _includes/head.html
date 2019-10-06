@@ -8,6 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="{{ site.description }}">
 	<meta name="author" content="HydPy Hyderabad">
+	<meta name="keywords" content="{{ site.keywords }}">
 	<link rel="shortcut icon" href="favicon.ico">
 	<meta name="robots" content="index, follow">
 
@@ -18,7 +19,7 @@
 	<meta property="og:url" content="https://pyconf.hydpy.org/2019/">
 	<meta property="og:title" content="{{ title }}">
 	<meta property="og:description" content="{{ site.description }}">
-	<meta property="og:image" content="https://pyconf.hydpy.org/2019/assets/images/pyconflogo_ai_compressed.jpg">
+	<meta property="og:image" content="{{ social_image_link }}">
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
@@ -27,7 +28,7 @@
 	<meta property="twitter:url" content="https://pyconf.hydpy.org/2019/">
 	<meta property="twitter:title" content="{{ title }}">
 	<meta property="twitter:description" content="{{ site.description }}">
-	<meta property="twitter:image" content="https://pyconf.hydpy.org/2019/assets/images/pyconflogo_ai_compressed.jpg">
+	<meta property="twitter:image" content="{{ social_image_link }}">
 
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:600,700,800|Roboto:300,400,700&display=swap" rel="stylesheet">
@@ -49,5 +50,7 @@
 
 	gtag('config', 'UA-148993906-1');
 	</script>
+
+	{% include event_schema.html %}
 
 </head> 
