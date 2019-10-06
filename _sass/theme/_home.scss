@@ -439,6 +439,7 @@
 
 	.figure {
 		position: relative;
+		padding-bottom: 20px;
 		
 		img {
 			border: 10px solid #fff;
@@ -477,6 +478,11 @@
 	}
 }
 
+.venue-map-section {
+	iframe {
+		display: block;
+	}
+}
 
 /* Sponsors */
 .logo-item {
