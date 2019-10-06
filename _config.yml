@@ -17,6 +17,7 @@ title: PyConf Hyderabad 2019
 mail: hydpy@python.org
 description: >- # this means to ignore newlines until "baseurl:"
   PyConf Hyderabad is an yearly tech conference about python, it's projects and development
+keywords: "PyConf, python, 2019, Hyderabad, pyconf hyderabad 2019, data science, machine learning, conference, tech conference"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pyconf.hydpy.org/2019/" # the base hostname & protocol for your site, e.g. http://example.com
 
