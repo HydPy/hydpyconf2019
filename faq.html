@@ -17,7 +17,7 @@ title: Frequently Asked Questions
         "@type": "Answer",
         "text": "{{faqItem.answer}}"
       }
-    }
+    }{% if forloop.index != site.data.faq.size %},{% endif%}
     {% endfor %}
   ]
 }
