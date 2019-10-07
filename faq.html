@@ -1,0 +1,29 @@
+---
+layout: flexible
+title: Frequently Asked Questions
+---
+
+<!-- This script tag will allow google search to index these FAQs in search results -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for faqItem in site.data.faq %}
+    {
+      "@type": "Question",
+      "name": "{{faqItem.question}}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{faqItem.answer}}"
+      }
+    }{% if forloop.index != site.data.faq.size %},{% endif%}
+    {% endfor %}
+  ]
+}
+</script>
+
+{% for faqItem in site.data.faq %}
+<h5> Q. {{ faqItem.question}}</h5>
+<p>{{ faqItem.answer }}</p>
+{% endfor %}
