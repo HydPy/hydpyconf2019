@@ -9,13 +9,13 @@ title: Frequently Asked Questions
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {% for faqItem in site.data.faq.mainEntity %}
+    {% for faqItem in site.data.faq %}
     {
       "@type": "Question",
-      "name": "{{faqItem.name}}",
+      "name": "{{faqItem.question}}",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{faqItem.acceptedAnswer.text}}"
+        "text": "{{faqItem.answer}}"
       }
     }
     {% endfor %}
@@ -23,7 +23,7 @@ title: Frequently Asked Questions
 }
 </script>
 
-{% for faqItem in site.data.faq.mainEntity %}
-<h5> Q. {{ faqItem.name}}</h5>
-<p>{{ faqItem.acceptedAnswer.text }}</p>
+{% for faqItem in site.data.faq %}
+<h5> Q. {{ faqItem.question}}</h5>
+<p>{{ faqItem.answer }}</p>
 {% endfor %}
