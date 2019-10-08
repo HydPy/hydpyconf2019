@@ -25,7 +25,7 @@ twitter: https://twitter.com/pyconfhyd
 github:  https://github.com/hydpy
 
 # links
-tickets_link: ""
+tickets_link: "#tickets-section"
 schedule_link: ""
 cfp_link: "https://www.papercall.io/pyconf-hyderabad2019"
 social_image_link: "https://pyconf.hydpy.org/2019/assets/images/pyconflogo_ai_compressed.jpg"
