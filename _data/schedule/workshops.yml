@@ -1,0 +1,24 @@
+#workshops
+- workshops:
+  -
+    time: "8:00AM - 9:00AM"
+    type: 'other'
+    tracks:
+      - {title: Workshop Registration, venue: "TBD"}
+  -
+    time: "10:00AM - 1:00PM"
+    tracks:
+      - {title: "Workshop",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Workshop",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+  
+  -
+    time: "1:00PM - 2:00PM"
+    type: 'other'
+    tracks:
+      - {title: Lunch Time, venue: "TBD"}
+      
+  -
+    time: "2:00PM - 5:00PM"
+    tracks:
+      - {title: "Workshop",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Workshop",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
