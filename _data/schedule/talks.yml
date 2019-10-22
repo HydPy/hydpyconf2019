@@ -8,6 +8,7 @@
 
   -
     time: "9:30AM - 9:45AM"
+    type: 'keynote'
     tracks:
       - {title: "Opening Address",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
 
@@ -28,17 +29,14 @@
     tracks:
       - {title: "Talk",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
       - {title: "Talk",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
-      - {title: "Talk",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
   -
     time: "11:55AM - 12:25PM"
     tracks:
       - {title: "Talk",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
       - {title: "Talk",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
-      - {title: "Talk",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
   -
     time: "12:30PM - 1:00PM"
     tracks:
-      - {title: "Talk",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
       - {title: "Talk",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
       - {title: "Talk",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
 
@@ -53,17 +51,14 @@
     tracks:
       - {title: "Talk",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
       - {title: "Talk",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
-      - {title: "Talk",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
   -
     time: "2:35PM - 3:05PM"
     tracks:
       - {title: "Talk",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
       - {title: "Talk",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
-      - {title: "Talk",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
   -
     time: "3:10PM - 3:40PM"
     tracks:
-      - {title: "Talk",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
       - {title: "Talk",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
       - {title: "Talk",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
 
