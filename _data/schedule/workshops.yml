@@ -6,7 +6,19 @@
     tracks:
       - {title: Workshop Registration, venue: "TBD"}
   -
-    time: "10:00AM - 1:00PM"
+    time: "09:30AM - 11:00AM"
+    tracks:
+      - {title: "Workshop",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Workshop",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+
+  -
+    time: "11:00AM - 11:30AM"
+    type: 'other'
+    tracks:
+      - {title: Tea Break, venue: "TBD"}
+  
+  -
+    time: "11:30AM - 1:00PM"
     tracks:
       - {title: "Workshop",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
       - {title: "Workshop",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
@@ -16,9 +28,21 @@
     type: 'other'
     tracks:
       - {title: Lunch Time, venue: "TBD"}
-      
+  
   -
-    time: "2:00PM - 5:00PM"
+    time: "2:00PM - 3:30PM"
+    tracks:
+      - {title: "Workshop",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Workshop",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+  
+  -
+    time: "3:30PM - 4:00PM"
+    type: 'other'
+    tracks:
+      - {title: Tea Break, venue: "TBD"}
+    
+  -
+    time: "4:00PM - 5:40PM"
     tracks:
       - {title: "Workshop",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
       - {title: "Workshop",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
