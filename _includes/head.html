@@ -15,13 +15,13 @@
 	<meta name="title" content="{{ title }}">
 
 	<!-- include manifest-->
-	<link rel="manifest" href="/manifest.json">
+	<link rel="manifest" href="manifest.json">
 
 	<!-- include service worker -->
 	<script>
 		if ('serviceWorker' in navigator) {
 			window.addEventListener('load', () => {
-				navigator.serviceWorker.register('/service-worker.js');
+				navigator.serviceWorker.register('service-worker.js');
 			});
 		}
 	</script>
