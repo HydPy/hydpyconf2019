@@ -1,0 +1,81 @@
+# talks
+- talks:
+  -
+    time: "8:30AM - 9:30AM"
+    type: 'other'
+    tracks:
+      - {title: Conference Registration, venue: "TBD"}
+
+  -
+    time: "9:30AM - 9:45AM"
+    type: 'keynote'
+    tracks:
+      - {title: "Opening Address",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+
+  -
+    time: "9:45AM - 10:45AM"
+    type: 'keynote'
+    tracks:
+      - {title: "Keynote",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+
+  -
+    time: "10:45AM - 11:15AM"
+    type: 'other'
+    tracks:
+      - {title: "Morning Tea Break", venue: "TBD"}
+
+  -
+    time: "11:20AM - 11:50AM"
+    tracks:
+      - {title: "Talk 1",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Talk 2",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+  -
+    time: "11:55AM - 12:25PM"
+    tracks:
+      - {title: "Talk 3",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Talk 4",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+  -
+    time: "12:30PM - 1:00PM"
+    tracks:
+      - {title: "Talk 5",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Talk 6",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+
+  -
+    time: "1:00PM - 2:00PM"
+    type: 'other'
+    tracks:
+      - {title: "Lunch", venue: "TBD"}
+
+  -
+    time: "2:00PM - 2:30PM"
+    tracks:
+      - {title: "Talk 7",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Talk 8",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+  -
+    time: "2:35PM - 3:05PM"
+    tracks:
+      - {title: "Talk 9",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Talk 10",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+  -
+    time: "3:10PM - 3:40PM"
+    tracks:
+      - {title: "Talk 11",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Talk  12",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+
+  -
+    time: "3:45PM - 4:15PM"
+    type: 'other'
+    tracks:
+      - {title: "Evening Tea Break", venue: "TBD"}
+
+  -
+    time: "4:15PM - 5:00PM"
+    type: 'other'
+    tracks:
+      - {title: "Lightning Talks", venue: "TBD"}
+
+  -
+    time: "5:00PM - 6:00PM"
+    type: 'keynote'
+    tracks:
+      - {title: "Keynote", venue: "TBD"}
