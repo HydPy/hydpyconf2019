@@ -5,7 +5,7 @@
   "background_color": "#333333",
   "display": "standalone",
   "Scope": "/",
-  "start_url": "/?utm=web_app",
+  "start_url": "https://pyconf.hydpy.org/2019/?utm=web_app",
   "icons": [
     {
       "src": "assets/images/icons/icon-72x72.png",
