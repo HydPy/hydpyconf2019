@@ -14,6 +14,17 @@
 
 	<meta name="title" content="{{ title }}">
 
+	<!-- include manifest-->
+	<link rel="manifest" href="manifest.json">
+
+	<!-- include service worker -->
+	<script>
+		if ('serviceWorker' in navigator) {
+			window.addEventListener('load', () => {
+				navigator.serviceWorker.register('service-worker.js');
+			});
+		}
+	</script>
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://pyconf.hydpy.org/2019/">
