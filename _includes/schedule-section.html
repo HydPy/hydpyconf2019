@@ -1,7 +1,7 @@
 <section id="schedule-section" class="schedule-section section">
 	<div class="container">
 		<h3 class="section-heading text-center mb-5">Schedule</h3>
-		
+
 		<!-- Nav tabs -->
 		<ul class="schedule-nav nav nav-pills nav-fill" id="myTab" role="tablist">
 			<li class="nav-item mr-2">
@@ -17,26 +17,26 @@
 				</a>
 			</li>
 		</ul>
-		
+
 
 		<!-- Tab panes -->
 		<div class="schedule-tab-content tab-content">
 			<div class="tab-pane active" id="tab-1-content" role="tabpanel" aria-labelledby="tab-1">
 
-		
+
 		{% for schedule in site.data.schedule.workshops %}
 			{% for workshop in schedule.workshops %}
 
 				{% if workshop.type != "other" %}
 					<!-- workshop structure dynamic -->
 					<div class="row item item-talk">
-					
+
 						<div class="col-md-4">
 							<div class="meta">
 								<h4 class="time mb-3 center-align">{{ workshop.time }}</h4>
 							</div><!--//meta-->
 						</div>
-					
+
 						{% for track in workshop.tracks %}
 							{% assign colwidth = 8 | divided_by: forloop.length %}
 							<div class="col-md-{{ colwidth }}">
@@ -44,38 +44,39 @@
 									<h3 class="title mb-3">{{ track.title}}</h3>
 									<div class="location mb-3"><i class="fas fa-map-marker-alt mr-2"></i> Venue: {{ track.venue }}</div>
 									{% unless track.speaker == "TBD" or track.speaker == "" %}
-										<div class="desc">By: <a class="link" href="#modalSpeaker" data-toggle="modal">{{ track.speaker }}</a></div>
+										{% assign speaker = site.data.speakers[ track.speaker ] %}
+										<div class="desc">By: <a class="link" href="#modal_speaker" data-toggle="modal" data-photo="{{ speaker.photo }}" data-job="{{ speaker.job }}" data-company="{{ speaker.company }}" data-twitter="{{ speaker.twitter }}" data-linkedin="{{ speaker.linkedin }}" data-github="{{ speaker.github }}" data-about="{{ speaker.about }}">{{ speaker.name }}</a></div>
 									{% endunless %}
-								</div><!--//content-->	
+								</div><!--//content-->
 							</div>
 						{% endfor %}
-				
-					</div><!-- workshop ends -->	
+
+					</div><!-- workshop ends -->
 				{% else %}
 					<!-- break?other structure dynamic -->
 					<div class="row item item-other">
-					
+
 						<div class="col-md-4">
 							<div class="meta">
 								<h4 class="time center-align">{{ workshop.time }}</h4>
 							</div><!--//meta-->
 						</div>
-					
+
 						{% for track in workshop.tracks %}
 							<div class="col-md-8">
 								<div class="content">
 									<h3 class="title mb-3">{{ track.title}}</h3>
-								</div><!--//content-->	
+								</div><!--//content-->
 							</div>
 						{% endfor %}
-				
-					</div><!-- workshop ends -->	
+
+					</div><!-- workshop ends -->
 				{% endif %}
 
 			{% endfor %}
 		{% endfor %}
 
-					
+
 		</div><!--//tab-1-content-->
 		<div class="tab-pane" id="tab-2-content" role="tabpanel" aria-labelledby="tab-2">
 		{% for schedule in site.data.schedule.talks %}
@@ -84,13 +85,13 @@
 				{% if talk.type != "other" %}
 					<!-- workshop structure dynamic -->
 					<div class="row item item-talk">
-					
+
 						<div class="col-md-4">
 							<div class="meta">
 								<h4 class="time mb-3 center-align">{{ talk.time }}</h4>
 							</div><!--//meta-->
 						</div>
-					
+
 						{% for track in talk.tracks %}
 							{% assign colwidth = 8 | divided_by: forloop.length %}
 							<div class="col-md-{{ colwidth }}">
@@ -98,32 +99,33 @@
 									<h3 class="title mb-3">{{ track.title}}</h3>
 									<div class="location mb-3"><i class="fas fa-map-marker-alt mr-2"></i> Venue: {{ track.venue }}</div>
 									{% unless track.speaker == "TBD" or track.speaker == "" %}
-										<div class="desc">By: <a class="link" href="#modalSpeaker" data-toggle="modal">{{ track.speaker }}</a></div>
+										{% assign speaker = site.data.speakers[ track.speaker ] %}
+										<div class="desc">By: <a class="link" href="#modal_speaker" data-toggle="modal" data-photo="{{ speaker.photo }}" data-job="{{ speaker.job }}" data-company="{{ speaker.company }}" data-twitter="{{ speaker.twitter }}" data-linkedin="{{ speaker.linkedin }}" data-github="{{ speaker.github }}" data-about="{{ speaker.about }}">{{ speaker.name }}</a></div>
 									{% endunless %}
-								</div><!--//content-->	
+								</div><!--//content-->
 							</div>
 						{% endfor %}
-				
-					</div><!-- workshop ends -->	
+
+					</div><!-- workshop ends -->
 				{% else %}
 					<!-- break?other structure dynamic -->
 					<div class="row item item-other">
-					
+
 						<div class="col-md-4">
 							<div class="meta">
 								<h4 class="time center-align">{{ talk.time }}</h4>
 							</div><!--//meta-->
 						</div>
-					
+
 						{% for track in talk.tracks %}
 							<div class="col-md-8">
 								<div class="content">
 									<h3 class="title">{{ track.title}}</h3>
-								</div><!--//content-->	
+								</div><!--//content-->
 							</div>
 						{% endfor %}
-				
-					</div><!-- workshop ends -->	
+
+					</div><!-- workshop ends -->
 				{% endif %}
 
 			{% endfor %}
@@ -131,7 +133,7 @@
 		</div><!--//tab-2-content-->
 	</div><!--//schedule-tab-content-->
 
-		
+
 		<div class="schedule-cta text-center mx-auto">
 			<a href="{{ site.schedule_link }}" class="btn btn-primary btn-lg mr-md-2 d-block d-md-inline-block mb-3 mb-md-0" target="_blank">Download Schedule</a>
 		</div>
