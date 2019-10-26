@@ -44,7 +44,7 @@
 									<h3 class="title mb-3">{{ track.title}}</h3>
 									<div class="location mb-3"><i class="fas fa-map-marker-alt mr-2"></i> Venue: {{ track.venue }}</div>
 									{% unless track.speaker == "TBD" or track.speaker == "" %}
-										<div class="desc">By: {{ track.speaker }}</div>
+										<div class="desc">By: <a class="link" href="#modalSpeaker" data-toggle="modal">{{ track.speaker }}</a></div>
 									{% endunless %}
 								</div><!--//content-->	
 							</div>
@@ -78,7 +78,7 @@
 					
 		</div><!--//tab-1-content-->
 		<div class="tab-pane" id="tab-2-content" role="tabpanel" aria-labelledby="tab-2">
-			{% for schedule in site.data.schedule.talks %}
+		{% for schedule in site.data.schedule.talks %}
 			{% for talk in schedule.talks %}
 
 				{% if talk.type != "other" %}
@@ -98,7 +98,7 @@
 									<h3 class="title mb-3">{{ track.title}}</h3>
 									<div class="location mb-3"><i class="fas fa-map-marker-alt mr-2"></i> Venue: {{ track.venue }}</div>
 									{% unless track.speaker == "TBD" or track.speaker == "" %}
-										<div class="desc">By: {{ track.speaker }}</div>
+										<div class="desc">By: <a class="link" href="#modalSpeaker" data-toggle="modal">{{ track.speaker }}</a></div>
 									{% endunless %}
 								</div><!--//content-->	
 							</div>
