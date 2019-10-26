@@ -43,10 +43,10 @@
 								<div class="content">
 									<h3 class="title mb-3">{{ track.title}}</h3>
 									<div class="location mb-3"><i class="fas fa-map-marker-alt mr-2"></i> Venue: {{ track.venue }}</div>
-									{% unless track.speaker == "TBD" or track.speaker == "" %}
-										{% assign speaker = site.data.speakers[ track.speaker ] %}
-										<div class="desc">By: <a class="link" href="#modal_speaker" data-toggle="modal" data-photo="{{ speaker.photo }}" data-job="{{ speaker.job }}" data-company="{{ speaker.company }}" data-twitter="{{ speaker.twitter }}" data-linkedin="{{ speaker.linkedin }}" data-github="{{ speaker.github }}" data-about="{{ speaker.about }}">{{ speaker.name }}</a></div>
-									{% endunless %}
+
+									<!-- link speaker -->
+									{% include link-speaker.html %}
+
 								</div><!--//content-->
 							</div>
 						{% endfor %}
@@ -98,10 +98,10 @@
 								<div class="content">
 									<h3 class="title mb-3">{{ track.title}}</h3>
 									<div class="location mb-3"><i class="fas fa-map-marker-alt mr-2"></i> Venue: {{ track.venue }}</div>
-									{% unless track.speaker == "TBD" or track.speaker == "" %}
-										{% assign speaker = site.data.speakers[ track.speaker ] %}
-										<div class="desc">By: <a class="link" href="#modal_speaker" data-toggle="modal" data-photo="{{ speaker.photo }}" data-job="{{ speaker.job }}" data-company="{{ speaker.company }}" data-twitter="{{ speaker.twitter }}" data-linkedin="{{ speaker.linkedin }}" data-github="{{ speaker.github }}" data-about="{{ speaker.about }}">{{ speaker.name }}</a></div>
-									{% endunless %}
+
+									<!-- link speaker -->
+									{% include link-speaker.html %}
+
 								</div><!--//content-->
 							</div>
 						{% endfor %}

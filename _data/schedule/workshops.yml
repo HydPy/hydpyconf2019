@@ -9,7 +9,7 @@
     time: "09:30AM - 11:00AM"
     tracks:
       - {title: "Workshop 1",speaker: "james_dooooo",description: "",category: "",audience_type: "",venue: "TBD"}
-      - {title: "Workshop 2",speaker: "doe",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Workshop 2",speaker: "jane_doe",description: "",category: "",audience_type: "",venue: "TBD"}
 
   -
     time: "11:00AM - 11:30AM"
