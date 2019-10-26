@@ -12,4 +12,25 @@
   answer: Check out the <a href='https://pyconf.hydpy.org/2019/volunteer.html'>Volunteer Page</a> to know about the roles and responsibilities. Fill the <a href='https://forms.gle/qiKhorSfMjbWCN7Y7'>volunteer form</a> and subscribe to the <a href='https://mail.python.org/mm3/mailman3/lists/hydpy.python.org/'>HydPy mailing list</a>for updates.
 
 - question: I am a speaker/volunteer at the conference. Do I need to buy a ticket?
-  answer: Yes. At PyConf, everybody buys tickets. Even the event organizers buy tickets. Your ticket helps keep the event affordable for all. 
+  answer: Yes. At PyConf, everybody buys tickets. Even the event organizers buy tickets. Your ticket helps keep the event affordable for all.
+
+- question: What does the Conference ticket (8th Dec) include ?
+  answer: Full day access to all Talks and Keynote, Lunch, Tea and Snacks, T-shirt and goodies
+
+- question: What does the Workshop/Devsprint ticket (7th Dec) include ?
+  answer: Access to any Workshop/Devsprint for the full day. Attendee can attend any workshop/devsprint of choice. Lunch, Tea and Snacks included. T-shirt is not provided to those who only attend Workshop/Devsprint.
+
+- question: Can I switch between Workshops/Devsprints ?
+  answer: Yes you can switch between Workshops/Devsprints. But seats in each Workshop/Devsprint is limited and is available on First Come, First Serve basis.
+
+- question: There is a change in my plan so I can’t attend the conference. Can I get a refund?
+  answer: Tickets can't be cancelled, but can be transferred. Details of this will be updated shortly after Transfer window is open.
+
+- question: Is accommodation included in the ticket?
+  answer: No, it doesn’t include accommodation.
+
+- question: Is there any discount on student ticket ?
+  answer: There will be a discount on regular tickets for students, details of which will be made available shortly. Students must carry a student ID card valid on the day of the Conference when availing a student discount.
+
+- question: My question is not listed here / I am still unclear about a few things. Whom should I contact?
+  answer: If its a general query send it to <a href="mailto:contact@hydpy.org">contact@hydpy.org</a>. For all ticket related queries please write to <a href="mailto:tickets@hydpy.org">tickets@hydpy.org<a>.
