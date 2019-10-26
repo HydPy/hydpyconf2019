@@ -8,11 +8,6 @@ $(document).ready(function() {
     
     /* ===== Smooth scrolling ====== */
 	$('a.scrollto').on('click', function(e){
-        //store hash
-        var target = this.hash;    
-        e.preventDefault();
-		$('body').scrollTo(target, 800, {offset: -60, 'axis':'y'});
-		
 		//Collapse mobile menu after clicking
 		if ($('.navbar-collapse').hasClass('show')){
 			$('.navbar-toggler').trigger('click');

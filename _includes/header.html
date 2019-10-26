@@ -16,7 +16,17 @@
 								<li class="nav-item" itemprop="name">
 									<a itemprop="url" class="nav-link scrollto" href="index.html{{ navitem.href }}">{{ navitem.item }}</a>
 								</li>
-							{% endfor %}
+              {% endfor %}
+              
+              <!-- More Dropdown link -->
+              <li class="nav-item dropdown" itemprop="name">
+                <a itemprop="url" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">More</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="volunteer.html">Volunteer</a>
+                    <a class="dropdown-item" href="coc.html">Code of Conduct</a>
+                    <a class="dropdown-item" href="faq.html">FAQ</a>
+                </div>
+              </li>
 						</ul><!--//nav-->
 					</div><!--//navabr-collapse-->
 
