@@ -62,24 +62,24 @@ $(document).ready(function() {
 
     }, 1000);
 
-	/* ======= Modal Speaker ========= */
-	$('#modal_speaker').on('show.bs.modal', function (e) {
-		var	arrayFields = ['name', 'job', 'company', 'about'],
-			arraySocial = ['twitter', 'linkedin', 'github'],
-			$link = $(e.relatedTarget);
-		$('#modal_speaker_photo').attr('src', 'assets/images/speakers/' + $link.data('photo') + '.jpg');
-		$('#modal_speaker_label').html($link.data('name'));
-		for (var field of arrayFields ) {
-			$('#modal_speaker_' + field).html($link.data(field));
-		}
-		for (var field of arraySocial ) {
-			var	url = $link.data(field),
-				$social = $('#modal_speaker_' + field);
-			if (url) {
-				$social.css("display", 'inline-block').children('a').attr('href', url);
-			} else {
-				$social.css("display", 'none');
-			}
-		}
-	});
+    /* ======= Modal Speaker ========= */
+    $('#modal_speaker').on('show.bs.modal', function (e) {
+        var arrayFields = ['name', 'job', 'company', 'about'];
+        var arraySocial = ['twitter', 'linkedin', 'github'];
+        var $link = $(e.relatedTarget);
+        $('#modal_speaker_photo').attr('src', 'assets/images/speakers/' + $link.data('photo') + '.jpg');
+        $('#modal_speaker_label').html($link.data('name'));
+        for (var field of arrayFields ) {
+            $('#modal_speaker_' + field).html($link.data(field));
+        }
+        for (var field of arraySocial ) {
+            var url = $link.data(field);
+            var $social = $('#modal_speaker_' + field);
+            if (url) {
+                $social.css("display", 'inline-block').children('a').attr('href', url);
+            } else {
+                $social.css("display", 'none');
+            }
+        }
+    });
 });
