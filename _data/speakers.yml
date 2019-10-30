@@ -1,24 +1,20 @@
-- name: "James Dooooo"
-  title: "James Doe"
-  introduction: 
-  photo: "speaker-1"
-- name: "James Doo"
-  title: "James Doe"
-  introduction: 
-  photo: "speaker-2"
-- name: "James Dooooo"
-  title: "James Doe"
-  introduction: 
-  photo: "speaker-3"
-- name: "James Dooooo"
-  title: "James Doe"
-  introduction: 
-  photo: "speaker-4"
-- name: "James Dooooo"
-  title: "James Doe"
-  introduction: 
-  photo: "speaker-5"
-- name: "James Dooooo"
-  title: "James Doe"
-  introduction: 
-  photo: "speaker-6"
+james_dooooo:
+    name: James Dooooo
+    photo: speaker-3
+    job: Developer
+    company: Delta
+    twitter: Twitter
+    linkedin:
+    github:
+    about: "<p>The first speaker. Text about the first speaker. Text about the first speaker. Text about the first speaker. Text about the first speaker. Text about the first speaker. Text about the first speaker. Text about the first speaker. </p><p class=mb-0>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, delectus, corrupti, pariatur, itaque ipsum praesentium voluptates atque ipsa optio ea vel fuga eius ex. Atque fugiat dolore quia reiciendis amet!</span><span>In, maxime, autem, aperiam, nihil excepturi delectus perspiciatis quod sapiente consequatur magnam minus qui beatae ad veritatis recusandae sed quidem officia iste repellat neque sit? Adipisci, quo incidunt molestiae id.</p>"
+
+jane_doe:
+    name: Jane Doe
+    job: Artist
+    company: Alpha
+    twitter: twitter
+    photo: speaker-2
+    twitter:
+    linkedin: linkedin
+    github: github
+    about: <p>The second speaker. Text about the second speaker. Text about the second speaker. Text about the second speaker. Text about the second speaker. Text about the second speaker. Text about the second speaker. Text about the second speaker.</p><p class=mb-0>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, nemo, illo, doloribus voluptatem dolorum harum nesciunt delectus fuga qui veniam itaque reprehenderit eos error sunt rem culpa facilis! Quo, autem.</p>
