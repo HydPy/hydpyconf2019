@@ -24,6 +24,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "JohnTendik",
+      "name": "John Tendik",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4714913?v=4",
+      "profile": "http://johntendik.github.io/",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
