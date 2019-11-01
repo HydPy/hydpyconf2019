@@ -74,6 +74,22 @@
         "ideas",
         "projectManagement"
       ]
+    },
+    {
+      "login": "bhansa",
+      "name": "Bharat Saraswat",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9723884?v=4",
+      "profile": "http://bhansa.github.io",
+      "contributions": [
+        "code",
+        "design",
+        "ideas",
+        "bug",
+        "review",
+        "test",
+        "content",
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
