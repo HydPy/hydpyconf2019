@@ -1,0 +1,114 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "glebkema",
+      "name": "Gleb Kemarsky",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3881568?v=4",
+      "profile": "http://glebkema.ru",
+      "contributions": [
+        "code",
+        "design",
+        "bug"
+      ]
+    },
+    {
+      "login": "Tilak999",
+      "name": "Tilak Sasmal",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/21053902?v=4",
+      "profile": "https://tilak999.github.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "JohnTendik",
+      "name": "John Tendik",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4714913?v=4",
+      "profile": "http://johntendik.github.io/",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "saarques",
+      "name": "Sarques",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/29957378?v=4",
+      "profile": "https://github.com/saarques",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "vishalpolley",
+      "name": "Vishal Polley",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/20622980?v=4",
+      "profile": "https://vishalpolley.github.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "GoelJatin",
+      "name": "Jatin Goel",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/14715892?v=4",
+      "profile": "https://www.hackerearth.com/@jatin",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "inovizz",
+      "name": "Sanchit Balchandani",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3849885?v=4",
+      "profile": "https://github.com/inovizz",
+      "contributions": [
+        "code",
+        "design",
+        "eventOrganizing",
+        "ideas",
+        "projectManagement"
+      ]
+    },
+    {
+      "login": "bhansa",
+      "name": "Bharat Saraswat",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9723884?v=4",
+      "profile": "http://bhansa.github.io",
+      "contributions": [
+        "code",
+        "design",
+        "ideas",
+        "bug",
+        "review",
+        "test",
+        "content",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "ananyo2012",
+      "name": "Ananyo Maiti",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/10486343?v=4",
+      "profile": "https://ilovefoss.wordpress.com/",
+      "contributions": [
+        "code",
+        "review",
+        "bug",
+        "content",
+        "infra",
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "hydpyconf2019",
+  "projectOwner": "HydPy",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
