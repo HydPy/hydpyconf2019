@@ -1,5 +1,5 @@
 # Python Conference Hyderabad 2019
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors)
 
 ### About Conference
 
@@ -49,6 +49,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://johntendik.github.io/"><img src="https://avatars3.githubusercontent.com/u/4714913?v=4" width="100px;" alt="John Tendik"/><br /><sub><b>John Tendik</b></sub></a><br /><a href="https://github.com/HydPy/hydpyconf2019/commits?author=JohnTendik" title="Code">💻</a> <a href="https://github.com/HydPy/hydpyconf2019/issues?q=author%3AJohnTendik" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/saarques"><img src="https://avatars2.githubusercontent.com/u/29957378?v=4" width="100px;" alt="Sarques"/><br /><sub><b>Sarques</b></sub></a><br /><a href="https://github.com/HydPy/hydpyconf2019/commits?author=saarques" title="Code">💻</a></td>
     <td align="center"><a href="https://vishalpolley.github.io/"><img src="https://avatars1.githubusercontent.com/u/20622980?v=4" width="100px;" alt="Vishal Polley"/><br /><sub><b>Vishal Polley</b></sub></a><br /><a href="https://github.com/HydPy/hydpyconf2019/commits?author=vishalpolley" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.hackerearth.com/@jatin"><img src="https://avatars0.githubusercontent.com/u/14715892?v=4" width="100px;" alt="Jatin Goel"/><br /><sub><b>Jatin Goel</b></sub></a><br /><a href="https://github.com/HydPy/hydpyconf2019/commits?author=GoelJatin" title="Code">💻</a></td>
   </tr>
 </table>
 
