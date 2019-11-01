@@ -34,6 +34,15 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "saarques",
+      "name": "Sarques",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/29957378?v=4",
+      "profile": "https://github.com/saarques",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
