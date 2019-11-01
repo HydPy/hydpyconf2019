@@ -44,7 +44,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore -->
 <table>
   <tr>
-    <td align="center"><a href="http://glebkema.ru"><img src="https://avatars3.githubusercontent.com/u/3881568?v=4" width="100px;" alt="Gleb Kemarsky"/><br /><sub><b>Gleb Kemarsky</b></sub></a><br /><a href="https://github.com/HydPy/hydpyconf2019/commits?author=glebkema" title="Code">💻</a> <a href="#design-glebkema" title="Design">🎨</a></td>
+    <td align="center"><a href="http://glebkema.ru"><img src="https://avatars3.githubusercontent.com/u/3881568?v=4" width="100px;" alt="Gleb Kemarsky"/><br /><sub><b>Gleb Kemarsky</b></sub></a><br /><a href="https://github.com/HydPy/hydpyconf2019/commits?author=glebkema" title="Code">💻</a> <a href="#design-glebkema" title="Design">🎨</a> <a href="https://github.com/HydPy/hydpyconf2019/issues?q=author%3Aglebkema" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://tilak999.github.io"><img src="https://avatars0.githubusercontent.com/u/21053902?v=4" width="100px;" alt="Tilak Sasmal"/><br /><sub><b>Tilak Sasmal</b></sub></a><br /><a href="https://github.com/HydPy/hydpyconf2019/commits?author=Tilak999" title="Code">💻</a></td>
   </tr>
 </table>
