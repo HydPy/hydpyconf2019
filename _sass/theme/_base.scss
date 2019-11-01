@@ -37,7 +37,6 @@ a.theme-link {
 .btn {
 	font-weight: 700;
 	padding: 0.6rem 1.25rem;
-	@include transition (all 0.4s ease-in-out);
 	border: none;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -81,7 +80,7 @@ a.theme-link {
 }
 
 #topcontrol {
-    @include transition (all 0.4s ease-in-out);
+    @include transition(#{$btn-transition}, opacity .4s ease-in-out);
     background: $theme-text-color-secondary;
     color: #fff;
     text-align: center;
@@ -94,7 +93,7 @@ a.theme-link {
     padding-top: 0.5rem;
     font-weight: 300;
     font-size: 1rem;
-    
+
     &:hover {
         background: darken($theme-bg-primary, 10%);
         color: #fff;
