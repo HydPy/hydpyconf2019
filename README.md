@@ -1,5 +1,5 @@
 # Python Conference Hyderabad 2019
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors)
 
 ### About Conference
 
@@ -51,6 +51,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://vishalpolley.github.io/"><img src="https://avatars1.githubusercontent.com/u/20622980?v=4" width="100px;" alt="Vishal Polley"/><br /><sub><b>Vishal Polley</b></sub></a><br /><a href="https://github.com/HydPy/hydpyconf2019/commits?author=vishalpolley" title="Code">💻</a></td>
     <td align="center"><a href="https://www.hackerearth.com/@jatin"><img src="https://avatars0.githubusercontent.com/u/14715892?v=4" width="100px;" alt="Jatin Goel"/><br /><sub><b>Jatin Goel</b></sub></a><br /><a href="https://github.com/HydPy/hydpyconf2019/commits?author=GoelJatin" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/inovizz"><img src="https://avatars3.githubusercontent.com/u/3849885?v=4" width="100px;" alt="Sanchit Balchandani"/><br /><sub><b>Sanchit Balchandani</b></sub></a><br /><a href="https://github.com/HydPy/hydpyconf2019/commits?author=inovizz" title="Code">💻</a> <a href="#design-inovizz" title="Design">🎨</a> <a href="#eventOrganizing-inovizz" title="Event Organizing">📋</a> <a href="#ideas-inovizz" title="Ideas, Planning, & Feedback">🤔</a> <a href="#projectManagement-inovizz" title="Project Management">📆</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://bhansa.github.io"><img src="https://avatars0.githubusercontent.com/u/9723884?v=4" width="100px;" alt="Bharat Saraswat"/><br /><sub><b>Bharat Saraswat</b></sub></a><br /><a href="https://github.com/HydPy/hydpyconf2019/commits?author=bhansa" title="Code">💻</a> <a href="#design-bhansa" title="Design">🎨</a> <a href="#ideas-bhansa" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/HydPy/hydpyconf2019/issues?q=author%3Abhansa" title="Bug reports">🐛</a> <a href="#review-bhansa" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/HydPy/hydpyconf2019/commits?author=bhansa" title="Tests">⚠️</a> <a href="#content-bhansa" title="Content">🖋</a> <a href="#maintenance-bhansa" title="Maintenance">🚧</a></td>
   </tr>
 </table>
 
