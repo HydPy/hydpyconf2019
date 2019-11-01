@@ -1,4 +1,4 @@
 									{% unless track.speaker == "TBD" or track.speaker == "" %}
 										{% assign speaker = site.data.speakers[ track.speaker ] %}
-										<div class="desc">By: <a class="link" href="#modal_speaker" data-toggle="modal" data-name="{{ speaker.name }}" data-photo="{{ speaker.photo }}" data-job="{{ speaker.job }}" data-company="{{ speaker.company }}" data-twitter="{{ speaker.twitter }}" data-linkedin="{{ speaker.linkedin }}" data-github="{{ speaker.github }}" data-about="{{ speaker.about }}">{{ speaker.name }}</a></div>
+										<div class="desc">By: <a class="link" href="#modal_speaker" data-toggle="modal" data-speaker="{{ track.speaker }}">{{ speaker.name }}</a></div>
 									{% endunless %}

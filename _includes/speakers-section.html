@@ -1,35 +1,43 @@
+	{% if site.data.speakers %}
 	<section id="speakers-section" class="speakers-section section">
 		<div class="container">
-			<h3 class="section-heading text-center mb-5">Speakers</h3>
+			<h3 class="section-heading text-center mb-5">Keynote Speakers</h3>
 			<div class="row">
 			{% for speaker in site.data.speakers %}
-
+				{% assign speaker_code = speaker[0] %}
+				{% assign speaker_data = speaker[1] %}
+				{% if speaker_data.keynote %}
 				<div class="col-12 col-md-6 col-lg-3 mb-4">
 					<div class="card rounded-0">
-						<a href="#modal-speaker-1" data-toggle="modal" data-target="#modal-speaker-1"><img src="assets/images/speakers/{{ speaker.photo }}.jpg" class="card-img-top rounded-0" alt=""></a>
+				    	<a href="#modal_speaker" data-toggle="modal" data-speaker="{{ speaker_code }}"><img src="assets/images/speakers/{{ speaker_data.photo }}.jpg" class="card-img-top rounded-0" alt="{{ speaker_data.name }}"></a>
 						<div class="card-body">
-							<h5 class="card-title mb-2">{{ speaker.name }}</h5>
+							<h5 class="card-title mb-2">{{ speaker_data.name }}</h5>
 							<div class="card-text mb-3">
-								<div class="meta">Senior Software Developer</div>
-								<div class="meta">Angular Core Team</div>
+								<div class="meta">{{ speaker_data.job }}</div>
+								<div class="meta">{{ speaker_data.company }}</div>
 							</div><!--//card-text-->
-							<a href="#modal-speaker-1" data-toggle="modal" data-target="#modal-speaker-1">Read more &rarr;</a>
+							<a href="#modal_speaker" data-toggle="modal" data-speaker="{{ speaker_code }}">Read more &rarr;</a>
 						</div><!--//card-->
 						<div class="card-footer text-muted">
 							<ul class="social-list list-inline mb-0">
-								<li class="list-inline-item"><a  href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-								<li class="list-inline-item"><a  href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-								<li class="list-inline-item"><a  href="#"><i class="fab fa-github fa-fw"></i></a></li>
+							{% for social in speaker_data.social %}
+								{%assign social_key = social[0] %}
+								{%assign social_url = social[1] | strip %}
+								{% if social_url != '' %}
+									<li class="list-inline-item"><a href="{{ social_url }}"><i class="fab fa-fw fa-{{ social_key }}"></i></a></li>
+								{% endif %}
+							{% endfor %}
 							</ul><!--//social-list-->
 						</div>
 					</div><!--//card-->
 				</div><!--//col-->
-
+				{% endif %}
 			{% endfor %}
-				
 			</div><!--//row-->
-			<div class="speakers-cta text-center py-3"><a class="btn btn-primary btn-lg" href="{{ site.tickets_link }}" target="_blank">Get Tickets</a></div>
 		</div><!--//container-->
-		
 	</section><!--//speakers-section-->
-	
+
+	<div class="container">
+        <hr>
+    </div>
+	{% endif %}

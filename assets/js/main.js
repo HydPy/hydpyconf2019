@@ -7,16 +7,16 @@ $(document).ready(function() {
     $('body').scrollspy({ target: '#header', offset: 400});
 
     /* ===== Smooth scrolling ====== */
-	$('a.scrollto').on('click', function(e){
-		//Collapse mobile menu after clicking
-		if ($('.navbar-collapse').hasClass('show')){
-			$('.navbar-toggler').trigger('click');
-		}
+    $('a.scrollto').on('click', function(e){
+        //Collapse mobile menu after clicking
+        if ($('.navbar-collapse').hasClass('show')){
+            $('.navbar-toggler').trigger('click');
+        }
 
-	});
+    });
 
-	/* ======= Countdown ========= */
-	// set the date we're counting down to
+    /* ======= Countdown ========= */
+    // set the date we're counting down to
     var target_date = new Date("Dec 7, 2019").getTime();
 
     // variables for time units
@@ -63,23 +63,40 @@ $(document).ready(function() {
     }, 1000);
 
     /* ======= Modal Speaker ========= */
+    // https://getbootstrap.com/docs/4.3/components/modal/#events
     $('#modal_speaker').on('show.bs.modal', function (e) {
-        var arrayFields = ['name', 'job', 'company', 'about'];
-        var arraySocial = ['twitter', 'linkedin', 'github'];
-        var $link = $(e.relatedTarget);
-        $('#modal_speaker_photo').attr('src', 'assets/images/speakers/' + $link.data('photo') + '.jpg');
-        $('#modal_speaker_label').html($link.data('name'));
-        for (var field of arrayFields ) {
-            $('#modal_speaker_' + field).html($link.data(field));
-        }
-        for (var field of arraySocial ) {
-            var url = $link.data(field);
-            var $social = $('#modal_speaker_' + field);
-            if (url) {
-                $social.css("display", 'inline-block').children('a').attr('href', url);
+        if (! speakers) {
+            console.error('Data not found:', 'speakers');
+        } else {
+            var $link = $(e.relatedTarget);
+            var speakerCode = $link.data('speaker');
+            var data = speakers[speakerCode];
+            if (! data) {
+                console.error('Speaker not found:', speakerCode);
             } else {
-                $social.css("display", 'none');
+                $('#modal_speaker_photo').attr('src', 'assets/images/speakers/' + data['photo'] + '.jpg');
+                $('#modal_speaker_label').html(data['name']);
+                for (data_key in data) {
+                    if ('social' === data_key) {
+                        var $social = $('#modal_speaker_' + data_key).empty();  // remove a sample of the social link from the layout
+                        for (social_key in data[data_key]) {
+                            var social_url = data[data_key][social_key].trim();
+                            if (social_url) {
+                                $social.append('<li class="list-inline-item"><a href="' +
+                                    social_url + '"><i class="fab fa-fw fa-' +
+                                    social_key + '"></i></a></li>');
+                            }
+                        }
+                    } else {
+                        $('#modal_speaker_' + data_key).html(data[data_key]);
+                    }
+                }
             }
         }
+    });
+
+    $('#modal_speaker').on('hidden.bs.modal', function (e) {
+        // the old photo may be visible for a second after the modal window is opened next time, because the new photo may load slowly
+        $('#modal_speaker_photo').attr('src', '');
     });
 });
