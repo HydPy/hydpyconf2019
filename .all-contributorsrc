@@ -90,6 +90,20 @@
         "content",
         "maintenance"
       ]
+    },
+    {
+      "login": "ananyo2012",
+      "name": "Ananyo Maiti",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/10486343?v=4",
+      "profile": "https://ilovefoss.wordpress.com/",
+      "contributions": [
+        "code",
+        "review",
+        "bug",
+        "content",
+        "infra",
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
