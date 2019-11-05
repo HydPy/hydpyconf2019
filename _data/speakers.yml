@@ -1,13 +1,31 @@
-# james_dooooo:
-#     keynote: true
-#     name: James Dooooo
-#     job: Developer
-#     company: Delta
-#     photo: speaker-3
-#     social:
-#         twitter: twitter.url
-#         facebook: facebook.url
-#     about: "<p>The first speaker. Text about the first speaker. Text about the first speaker. Text about the first speaker. Text about the first speaker. Text about the first speaker. Text about the first speaker. Text about the first speaker. </p><p class=mb-0>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, delectus, corrupti, pariatur, itaque ipsum praesentium voluptates atque ipsa optio ea vel fuga eius ex. Atque fugiat dolore quia reiciendis amet!</span><span>In, maxime, autem, aperiam, nihil excepturi delectus perspiciatis quod sapiente consequatur magnam minus qui beatae ad veritatis recusandae sed quidem officia iste repellat neque sit? Adipisci, quo incidunt molestiae id.</p>"
+sarabjot_singh:
+  keynote: true
+  name: Dr. Sarabjot Singh Anand
+  job: Co-Founder & Chief Data Scientist
+  company: Tatras Data
+  photo: sarabjot_singh.png
+  social:
+    linkedin: https://www.linkedin.com/in/sarabjot-singh-a130711/
+  about: >
+    <p>Dr. Sarabjot Singh Anand has been involved in the field of Machine Learning
+    since the early 1990s having worked on developing algorithms, applying them
+    to real-world problems and training a host of data scientists in the capacity
+    of being an academic and entrepreneur.</p>
+
+    <p>He has published over 90 academic papers on machine learning while an
+    Associate Professor at the University of Warwick and previous academic posts
+    in the United Kingdom. He has used these algorithms to develop solutions in areas
+    as diverse as pay-per-click optimization, recommender systems, prognostic models
+    for chronic illnesses, diver monitoring using CAN bus data, cross-selling and
+    up-selling products in financial retail, churn prediction, house price prediction
+    for the Telecoms, Financial, Retail, Automotive, Manufacturing and Public Sector.
+    His first startup in Ireland won the European IST prize amongst other technology
+    accolades.</p>
+
+    <p>Dr. Anand moved back to India in 2012 and co-founded Tatras Data.
+    In 2018 he co-founded Sabudh Foundation in Mohali, Panjab to train engineering
+    students in Machine Learning and to work on social problems in education, farming,
+    governance and healthcare. Dr. Anand is currently adjunct faculty at IISER, Mohali.</p>
 
 # jane_doe:
 # #    keynote: false

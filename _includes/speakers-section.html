@@ -7,9 +7,9 @@
 				{% assign speaker_code = speaker[0] %}
 				{% assign speaker_data = speaker[1] %}
 				{% if speaker_data.keynote %}
-				<div class="col-12 col-md-6 col-lg-3 mb-4">
+				<div class="col-12 col-md-4 offset-md-4 mb-4">
 					<div class="card rounded-0">
-				    	<a href="#modal_speaker" data-toggle="modal" data-speaker="{{ speaker_code }}"><img src="assets/images/speakers/{{ speaker_data.photo }}.jpg" class="card-img-top rounded-0" alt="{{ speaker_data.name }}"></a>
+				    	<a href="#modal_speaker" data-toggle="modal" data-speaker="{{ speaker_code }}"><img src="assets/images/speakers/{{ speaker_data.photo }}" class="card-img-top rounded-0" alt="{{ speaker_data.name }}"></a>
 						<div class="card-body">
 							<h5 class="card-title mb-2">{{ speaker_data.name }}</h5>
 							<div class="card-text mb-3">
