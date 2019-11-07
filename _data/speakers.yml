@@ -27,14 +27,24 @@ sarabjot_singh:
     students in Machine Learning and to work on social problems in education, farming,
     governance and healthcare. Dr. Anand is currently adjunct faculty at IISER, Mohali.</p>
 
-# jane_doe:
-# #    keynote: false
-#     name: Jane Doe
-#     job: Artist
-#     company: Alpha
-#     photo: speaker-2
-#     social:
-#         linkedin: linkedin.url
-#         github: github.url
-#         instagram: instagram.url
-#     about: <p>The second speaker. Text about the second speaker. Text about the second speaker. Text about the second speaker. Text about the second speaker. Text about the second speaker. Text about the second speaker. Text about the second speaker.</p><p class=mb-0>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, nemo, illo, doloribus voluptatem dolorum harum nesciunt delectus fuga qui veniam itaque reprehenderit eos error sunt rem culpa facilis! Quo, autem.</p>
+zainab_bawa:
+  keynote: true
+  name: Zainab Bawa
+  job: CEO & Co-founder
+  company: HasGeek
+  photo: Zainab.jpg
+  social:
+    twitter: https://twitter.com/zainabbawa
+    medium: https://medium.com/@zainabbawa
+  about: >
+    <p>Zainab Bawa is founder and CEO of HasGeek. She has been curating technology events
+    since 2012. Zainab currently works with over 100 reviewers from the community to
+    mentor speakers for events conducted via <a href="https://hasgeek.com">hasgeek.com</a>.
+    Since 2010, HasGeek has facilitated over 2,000 individuals/practitioners from
+    technology to share their work via events and grow in visibility, community
+    involvement and careers.</p>
+
+    <p>Zainab is an ethnographer by accident, then training and later by practice.
+    She is passionate about pedagogy, and brings her interdisciplinary background
+    to the domain of technology to help people from various walks of life and profession
+    meet each other.</p>
