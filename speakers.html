@@ -1,0 +1,22 @@
+--- 
+layout: flexible
+title: Speakers
+---
+
+<div class="container speakers">
+    <div class="card-columns">
+        {% for speaker in site.data.speakers %}
+            {% assign speaker_code = speaker[0] %}
+            {% assign speaker_data = speaker[1] %}
+            <div class="card shadow speaker-card">
+                <img src="/assets/images/speakers/{{speaker_data.photo}}" class="card-img-top" alt="{{speaker_data.name}}">
+                <div class="card-body">
+                    <h5 class="card-title">{{speaker_data.name}}</h5>
+                    {% if speaker_data.keynote %}
+                        <p class="card-text"><small class="text-muted">Keynote speaker</small></p>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    </div
+</div>
