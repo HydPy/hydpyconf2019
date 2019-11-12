@@ -43,9 +43,12 @@
 								<div class="content">
 									<h3 class="title mb-3">{{ track.title}}</h3>
 									<div class="location mb-3"><i class="fas fa-map-marker-alt mr-2"></i> Venue: {{ track.venue }}</div>
-
-									<!-- link speaker -->
-									{% include link-speaker.html %}
+									<!-- Remove this once we speaker data -->
+									<div class="desc">By: {{ track.speaker }}</div>
+									<!-- link speaker
+										Uncomment this once we get the speaker data
+									-->
+									<!-- {% include link-speaker.html %} -->
 
 								</div><!--//content-->
 							</div>
@@ -99,8 +102,12 @@
 									<h3 class="title mb-3">{{ track.title}}</h3>
 									<div class="location mb-3"><i class="fas fa-map-marker-alt mr-2"></i> Venue: {{ track.venue }}</div>
 
-									<!-- link speaker -->
-									{% include link-speaker.html %}
+									<!-- Remove this once we speaker data -->
+									<div class="desc">By: {{ track.speaker }}</div>
+									<!-- link speaker
+										Uncomment this once we get the speaker data
+									-->
+									<!-- {% include link-speaker.html %} -->
 
 								</div><!--//content-->
 							</div>
