@@ -74,7 +74,7 @@ $(document).ready(function() {
             if (! data) {
                 console.error('Speaker not found:', speakerCode);
             } else {
-                $('#modal_speaker_photo').attr('src', 'assets/images/speakers/' + data['photo'] + '.jpg');
+                $('#modal_speaker_photo').attr('src', 'assets/images/speakers/' + data['photo']);
                 $('#modal_speaker_label').html(data['name']);
                 for (data_key in data) {
                     if ('social' === data_key) {
