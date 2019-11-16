@@ -1,4 +1,3 @@
-#workshops
 - workshops:
   -
     time: "8:00AM - 9:00AM"
@@ -8,9 +7,9 @@
   -
     time: "09:30AM - 11:00AM"
     tracks:
-      - {title: "Containarized Development using Docker",speaker: "Sanchit Balchandani",description: "",category: "",audience_type: "",venue: "TBD"}
-      - {title: "Intro to data science",speaker: "Grishma Jena",description: "",category: "",audience_type: "",venue: "TBD"}
-      - {title: "Computational Linear Algebra & Applications in Data Science",speaker: "Jaidev Deshpande",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Containarized Development using Docker",speaker: "Sanchit Balchandani",description: "",category: "",audience_type: "",venue: "Track 1"}
+      - {title: "Intro to data science",speaker: "Grishma Jena",description: "",category: "",audience_type: "",venue: "Track 2"}
+      - {title: "Computational Linear Algebra & Applications in Data Science",speaker: "Jaidev Deshpande",description: "",category: "",audience_type: "",venue: "Track 3"}
 #      - {title: "Workshop 1",speaker: "james_dooooo",description: "",category: "",audience_type: "",venue: "TBD"}
 #      - {title: "Workshop 2",speaker: "jane_doe",description: "",category: "",audience_type: "",venue: "TBD"}
 
@@ -23,9 +22,9 @@
   -
     time: "11:30AM - 1:00PM"
     tracks:
-      - {title: "Kubernetes for dev - myth or reality ?",speaker: "Arun Chaudhary",description: "",category: "",audience_type: "",venue: "TBD"}
-      - {title: "AI-Based chatbot building using open source bot-building framework",speaker: "Yogesh Kothiya",description: "",category: "",audience_type: "",venue: "TBD"}
-      - {title: "Building ML Applications with Gramex",speaker: "Bhanu K",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Kubernetes for dev - myth or reality ?",speaker: "Arun Chaudhary",description: "",category: "",audience_type: "",venue: "Track 1"}
+      - {title: "AI-Based chatbot building using open source bot-building framework",speaker: "Yogesh Kothiya",description: "",category: "",audience_type: "",venue: "Track 2"}
+      - {title: "Building ML Applications with Gramex",speaker: "Bhanu K",description: "",category: "",audience_type: "",venue: "Track 3"}
   
   -
     time: "1:00PM - 2:00PM"
@@ -36,9 +35,9 @@
   -
     time: "2:00PM - 3:30PM"
     tracks:
-      - {title: "Build sophisticated REST api using Django Rest Framework",speaker: "Akshar Raaj",description: "",category: "",audience_type: "",venue: "TBD"}
-      - {title: "Building a Recommender System in Python",speaker: "Dr. Sarabjot Singh Anand",description: "",category: "",audience_type: "",venue: "TBD"}
-      - {title: "Animating Science using Python",speaker: "Purusharth Saxena",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Build sophisticated REST api using Django Rest Framework",speaker: "Akshar Raaj",description: "",category: "",audience_type: "",venue: "Track 1"}
+      - {title: "Building a Recommender System in Python",speaker: "Dr. Sarabjot Singh Anand",description: "",category: "",audience_type: "",venue: "Track 2"}
+      - {title: "Animating Science using Python",speaker: "Purusharth Saxena",description: "",category: "",audience_type: "",venue: "Track 3"}
   
   -
     time: "3:30PM - 4:00PM"
@@ -49,6 +48,6 @@
   -
     time: "4:00PM - 5:40PM"
     tracks:
-      - {title: "Unit Testing with Mocks",speaker: "Vijay Kumar",description: "",category: "",audience_type: "",venue: "TBD"}
-      - {title: "Decrypting ML models using LIME",speaker: "Laisha Wadhwa",description: "",category: "",audience_type: "",venue: "TBD"}
-      - {title: "Numba and Dask",speaker: "Vijay Yellepadi",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Unit Testing with Mocks",speaker: "Vijay Kumar",description: "",category: "",audience_type: "",venue: "Track 1"}
+      - {title: "Decrypting ML models using LIME",speaker: "Laisha Wadhwa",description: "",category: "",audience_type: "",venue: "Track 2"}
+      - {title: "Numba and Dask",speaker: "Vijay Yellepedi",description: "",category: "",audience_type: "",venue: "Track 3"}
