@@ -65,6 +65,10 @@ $(document).ready(function() {
     /* ======= Modal Speaker ========= */
     // https://getbootstrap.com/docs/4.3/components/modal/#events
     $('#modal_speaker').on('show.bs.modal', function (e) {
+		var clearFields = ['job', 'company', 'social', 'description'];
+		$(clearFields.reduce(function(selector, field) {
+			return (selector ? selector + ',' : '') + '#modal_speaker_' + field;
+		}, '').empty();  // clear fields that may be missing in the data
         if (! speakers) {
             console.error('Data not found:', 'speakers');
         } else {
@@ -78,7 +82,7 @@ $(document).ready(function() {
                 $('#modal_speaker_label').html(data['name']);
                 for (data_key in data) {
                     if ('social' === data_key) {
-                        var $social = $('#modal_speaker_' + data_key).empty();  // remove a sample of the social link from the layout
+                        var $social = $('#modal_speaker_' + data_key);
                         for (social_key in data[data_key]) {
                             var social_url = data[data_key][social_key].trim();
                             if (social_url) {
