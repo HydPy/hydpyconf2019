@@ -5,5 +5,5 @@
 										{% else %}
 										  {% assign speaker_name = track.speaker %}
 										{% endif %}
-										<div class="desc">By: <a class="link" href="#modal_speaker" data-toggle="modal" data-speaker-code="{{ track.speaker }}" data-speaker-name="{{ speaker_name }}">{{ speaker_name }}</a></div>
+										<div class="desc">By: <a class="link" href="#modal_speaker" data-toggle="modal" data-speaker-code="{{ track.speaker }}" data-speaker-name="{{ speaker_name }}" data-description="{{ track.description }}">{{ speaker_name }}</a></div>
 									{% endunless %}

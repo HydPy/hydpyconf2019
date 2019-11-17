@@ -18,33 +18,41 @@
     type: 'other'
     tracks:
       - {title: Tea Break, venue: "TBD"}
-  
+
   -
     time: "11:30AM - 1:00PM"
     tracks:
       - {title: "Kubernetes for dev - myth or reality ?",speaker: "Arun Chaudhary",description: "",category: "",audience_type: "",venue: "Track 1"}
       - {title: "AI-Based chatbot building using open source bot-building framework",speaker: "Yogesh Kothiya",description: "",category: "",audience_type: "",venue: "Track 2"}
       - {title: "Building ML Applications with Gramex",speaker: "Bhanu K",description: "",category: "",audience_type: "",venue: "Track 3"}
-  
+
   -
     time: "1:00PM - 2:00PM"
     type: 'other'
     tracks:
       - {title: Lunch Time, venue: "TBD"}
-  
+
   -
     time: "2:00PM - 3:30PM"
     tracks:
-      - {title: "Build sophisticated REST api using Django Rest Framework",speaker: "Akshar Raaj",description: "",category: "",audience_type: "",venue: "Track 1"}
-      - {title: "Building a Recommender System in Python",speaker: "sarabjot_singh",description: "",category: "",audience_type: "",venue: "Track 2"}
-      - {title: "Animating Science using Python",speaker: "Purusharth Saxena",description: "",category: "",audience_type: "",venue: "Track 3"}
-  
+#      - {title: "Build sophisticated REST api using Django Rest Framework",speaker: "Akshar Raaj",description: "",category: "",audience_type: "",venue: "Track 1"}
+#      - {title: "Building a Recommender System in Python",speaker: "sarabjot_singh",description: "",category: "",audience_type: "",venue: "Track 2"}
+#      - {title: "Animating Science using Python",speaker: "Purusharth Saxena",description: "",category: "",audience_type: "",venue: "Track 3"}
+# test data:
+      - {title: "Build sophisticated REST api using Django Rest Framework",speaker: "Akshar Raaj",category: "",audience_type: "",venue: "Track 1"}
+      - {title: "Building a Recommender System in Python",speaker: "sarabjot_singh",description: "Test 1",category: "",audience_type: "",venue: "Track 2"}
+      - {title: "Animating Science using Python",speaker: "Purusharth Saxena",description: "
+	      <p>Test 2 & `<b><i>Line 1</i></b>`.</p>
+
+	      <p style='color: orange;'>Test 2 # Line 2.</p>",
+		category: "",audience_type: "",venue: "Track 3"}
+
   -
     time: "3:30PM - 4:00PM"
     type: 'other'
     tracks:
       - {title: Tea Break, venue: "TBD"}
-    
+
   -
     time: "4:00PM - 5:40PM"
     tracks:

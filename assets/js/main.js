@@ -72,10 +72,13 @@ $(document).ready(function() {
         var $link = $(e.relatedTarget);
         var speakerCode = $link.data('speakerCode');  // from data-speaker-code, https://api.jquery.com/data/#data-html5
         var speakerName = $link.data('speakerName');
+        var description = $link.data('description');
+		// if (description) description = $('<textarea />').html(description).text();  // unescape HTML entitles
         $(clearFieldsSelector).empty();  // clear fields that may be missing in the data
         if (! speakers || ! speakers[speakerCode]) {
             console.error('Speaker not found:', speakerCode);
             $('#modal_speaker_name').html(speakerName);
+			$('#modal_speaker_description').html(description);
         } else {
             var data = speakers[speakerCode];
             $('#modal_speaker_photo').attr('src', 'assets/images/speakers/' + data['photo']);
@@ -91,6 +94,8 @@ $(document).ready(function() {
                                 social_key + '"></i></a></li>');
                         }
                     }
+                } else if ('description' === data_key && description) {
+					$('#modal_speaker_' + data_key).html(description);
                 } else {
                     $('#modal_speaker_' + data_key).html(data[data_key]);
                 }
