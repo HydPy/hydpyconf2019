@@ -36,7 +36,7 @@
     time: "2:00PM - 3:30PM"
     tracks:
       - {title: "Build sophisticated REST api using Django Rest Framework",speaker: "Akshar Raaj",description: "",category: "",audience_type: "",venue: "Track 1"}
-      - {title: "Building a Recommender System in Python",speaker: "Dr. Sarabjot Singh Anand",description: "",category: "",audience_type: "",venue: "Track 2"}
+      - {title: "Building a Recommender System in Python",speaker: "sarabjot_singh",description: "",category: "",audience_type: "",venue: "Track 2"}
       - {title: "Animating Science using Python",speaker: "Purusharth Saxena",description: "",category: "",audience_type: "",venue: "Track 3"}
   
   -

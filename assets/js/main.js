@@ -65,35 +65,34 @@ $(document).ready(function() {
     /* ======= Modal Speaker ========= */
     // https://getbootstrap.com/docs/4.3/components/modal/#events
     $('#modal_speaker').on('show.bs.modal', function (e) {
-		var clearFields = ['job', 'company', 'social', 'description'];
-		$(clearFields.reduce(function(selector, field) {
-			return (selector ? selector + ',' : '') + '#modal_speaker_' + field;
-		}, '').empty();  // clear fields that may be missing in the data
-        if (! speakers) {
-            console.error('Data not found:', 'speakers');
+        var clearFields = ['job', 'company', 'social', 'description'];
+        var clearFieldsSelector = clearFields.reduce(function(selector, field) {
+            return (selector ? selector + ',' : '') + '#modal_speaker_' + field;
+        }, '');
+        var $link = $(e.relatedTarget);
+        var speakerCode = $link.data('speakerCode');  // from data-speaker-code, https://api.jquery.com/data/#data-html5
+        var speakerName = $link.data('speakerName');
+        $(clearFieldsSelector).empty();  // clear fields that may be missing in the data
+        if (! speakers || ! speakers[speakerCode]) {
+            console.error('Speaker not found:', speakerCode);
+            $('#modal_speaker_name').html(speakerName);
         } else {
-            var $link = $(e.relatedTarget);
-            var speakerCode = $link.data('speaker');
             var data = speakers[speakerCode];
-            if (! data) {
-                console.error('Speaker not found:', speakerCode);
-            } else {
-                $('#modal_speaker_photo').attr('src', 'assets/images/speakers/' + data['photo']);
-                $('#modal_speaker_label').html(data['name']);
-                for (data_key in data) {
-                    if ('social' === data_key) {
-                        var $social = $('#modal_speaker_' + data_key);
-                        for (social_key in data[data_key]) {
-                            var social_url = data[data_key][social_key].trim();
-                            if (social_url) {
-                                $social.append('<li class="list-inline-item"><a href="' +
-                                    social_url + '"><i class="fab fa-fw fa-' +
-                                    social_key + '"></i></a></li>');
-                            }
+            $('#modal_speaker_photo').attr('src', 'assets/images/speakers/' + data['photo']);
+            $('#modal_speaker_label').html(data['name']);
+            for (data_key in data) {
+                if ('social' === data_key) {
+                    var $social = $('#modal_speaker_' + data_key);
+                    for (social_key in data[data_key]) {
+                        var social_url = data[data_key][social_key].trim();
+                        if (social_url) {
+                            $social.append('<li class="list-inline-item"><a href="' +
+                                social_url + '"><i class="fab fa-fw fa-' +
+                                social_key + '"></i></a></li>');
                         }
-                    } else {
-                        $('#modal_speaker_' + data_key).html(data[data_key]);
                     }
+                } else {
+                    $('#modal_speaker_' + data_key).html(data[data_key]);
                 }
             }
         }
