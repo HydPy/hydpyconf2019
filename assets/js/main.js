@@ -86,7 +86,10 @@ $(document).ready(function() {
             $(selectorSpeaker('description')).html(description);
         } else {
             var data = speakers[speakerCode];
-            $(selectorSpeaker('photo')).attr('src', 'assets/images/speakers/' + data['photo']);
+            if (data['photo']) {
+                $(selectorSpeaker('photo')).attr('src', 'assets/images/speakers/' + data['photo']);
+            }
+              
             $(selectorSpeaker('label')).html(data['name']);
             for (data_key in data) {
                 if ('social' === data_key) {

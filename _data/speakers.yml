@@ -50,3 +50,124 @@ zainab_bawa:
     to the domain of technology to help people from various walks of life and profession
     meet each other.</p>
 
+sanchit_balchandani:
+  keynote: false
+  name: Sanchit Balchandani
+  photo: sanchit.jpg
+  social:
+    twitter: https://twitter.com/inovizz
+  description: >
+    Sanchit has been in software development for 9+ years and he has experience working
+    in different domains like - Automation, Infrastructure, Healthcare, and AdTech.
+    Sanchit is very passionate/enthusiastic about Python, Docker, SRE and community
+    building. He is also a co-organizer of the "Hyderabad Python User Group".
+
+grishma_jena:
+  keynote: false
+  name: Grishma Jena
+  job: Data Scientist
+  # photo: ""
+  company: IBM Data & AI
+  social:
+    twitter: https://twitter.com/DebateLover
+    linkedin: https://www.linkedin.com/in/grishmajena/
+    # globe: https://gjena.github.io/
+  description: >
+    Grishma Jena is a Data Scientist with the UX Research and Design team at IBM Data &
+    AI in San Francisco. She works across portfolios in conjunction with user research
+    and design teams and uses data to understand users’ struggles and opportunities to
+    enhance their experiences. She earned her Masters in Computer Science at University
+    of Pennsylvania. Her research interests are in Machine Learning and Natural Language
+    Processing. She has spoken and facilitated workshops at multiple conferences including
+    PyCon US (largest Python conference in the world) and O’Reilly OSCON. She has also
+    taught Python at the San Francisco Public Library and was a mentor for AI4ALL’s AI
+    Project Fellowship Spring 2018 where she guided a group of high school students to use
+    AI for prioritizing 911 EMS calls. In her free time, she writes, cooks and likes
+    conducting workshops and delivering talks. She likes explaining things in an
+    easy-to-understand format, drawing analogies from real-life (eg.
+    <a href="https://medium.com/the-graph/uncle-scrooge-meets-greedy-algorithms-dfc80c33d7ac">
+    using Uncle Scrooge to explain Greedy Algorithms</a>)
+
+arun_chaudhary:
+  keynote: false
+  name: Arun Chaudhary
+  # photo: 
+  social:
+    twitter: https://twitter.com/arunc009
+  description: >
+    Arun is a Techie based out of Hyderabad. He has been working on DevOps Practices
+    from past ~6 years and has used a diverse set of technologies. He started from System
+    Administration, MySQL Administration & Apache Webserver optimization and then moved
+    mostly on to DevOps and Cloud Technologies like AWS, Digital Ocean, Docker/Containers,
+    Jenkins, Kubernetes, Red hat OpenShift etc. Apart from having expertise in Shell
+    Scripting, Python, Perl and basic of golang development, he has been working on
+    Kubernetes. Along with Kubernetes he has got fair knowledge on other container
+    technologies like Redhat OpenShift, Docker Rancher etc.
+
+yogesh_kothiya:
+  keynote: false
+  name: Yogesh Kothiya
+  # photo: 
+  social:
+    twitter: https://twitter.com/Yogesh_Kothiya
+    linkedin: https://www.linkedin.com/in/yogeshkothiya/
+  description: >
+    Yogesh likes what he does because he does what he likes. That attitude made
+    him drop high paying comfortable job and switched career into AI from fresh. He built
+    multiple complex chatbots for large enterprises at IMIMobile. He also did freelance
+    social chatbot projects and currently running an AI community named <a href="https://
+    github.com/colearninglounge/co-learning-lounge">"Co-learning lounge"</a> where he
+    along with community members successfully conducted 8+ workshops, a hackathon, and
+    several talks on AI. He loves open-source projects and today he is "RASA hero"
+    because of active contribution in terms of workshops and blogs.
+
+bhanu_k:
+  keynote: false
+  name: Bhanu K
+  job: Principal Data Scientist
+  company: Gramener
+  # photo: 
+  social:
+    twitter: https://twitter.com/thoughtisdead
+  description: >
+    Bhanu works works as a principal data scientist at Gramener. His interests lie at the
+    intersection of technology, data, people.
+
+purusharth_saxena:
+  keynote: false
+  name: Purusharth Saxena
+  # photo: 
+  social:
+    twitter: https://twitter.com/undefined_pru
+  description: >
+    <p>Purusharth is currently based in IIT-B where I work on visualizing complex/abstract
+    math topics, under the FOSSEE Project. I have been engaged in the Python community
+    for last 3 years or so. I like mathematics, and the consequence of mathematics in CS,
+    i.e Numerical Methods. Currently he is working on Real Analysis, Linear Algebra and
+    Solutions of differential equations.</p>
+
+    <p>Last year at Scipy India he gave a talk on Animating Math Using Python, then the same
+    one in BangPypers. This year he did poster presentation at PyCon India, Chennai.
+    He watches football occasionally, and right now he is waiting for the second episode
+    of Silicon Valley (Season 6). Also this would be his first time in Hyderabad.</p>
+
+laisha_wadhwa:
+  keynote: false
+  name: Laisha Wadhwa
+  job: Undergraduate Student
+  company: IIIT, Sricity
+  # photo: 
+  description: >
+    <p>I am Laisha Wadhwa, a computer Science Engineer in making. I work with Machines and
+    various tools every day to make machines smarter and aware of their surroundings.
+    I like to build chatbots and make them sarcastic and witty. I believe technology can
+    solve so many problems and the power of Deep Learning and computer vision can be
+    leveraged to make everyday lives easier. I am currently an undergraduate in computer
+    science at Indian Institute of Information Technology, Sricity. Over the past 2 years
+    I have worked on some really cool problems and build some crazy chatbots. I love to
+    talk to people about the new things in tech and share my knowledge out with the world.
+    While I am not attending college I spend my time working with various data to tell an
+    interesting story through visualizations.</p>
+
+    <p>While I am not working I like to spend my time drawing and listening to music
+    (Marsh mellow and Alicia keys). Sometimes you can also find me drawing comics.</p>
