@@ -43,13 +43,7 @@
 								<div class="content">
 									<h3 class="title mb-3">{{ track.title}}</h3>
 									<div class="badge badge-light"> Track {{ forloop.index }}</div>
-									<!-- Remove this once we speaker data -->
-									<div class="desc">By: {{ track.speaker }}</div>
-									<!-- link speaker
-										Uncomment this once we get the speaker data
-									-->
-									<!-- {% include link-speaker.html %} -->
-
+									{% include link-speaker.html %}
 								</div><!--//content-->
 							</div>
 						{% endfor %}

@@ -6,7 +6,7 @@ sarabjot_singh:
   photo: sarabjot_singh.png
   social:
     linkedin: https://www.linkedin.com/in/sarabjot-singh-a130711/
-  about: >
+  description: >
     <p>Dr. Sarabjot Singh Anand has been involved in the field of Machine Learning
     since the early 1990s having worked on developing algorithms, applying them
     to real-world problems and training a host of data scientists in the capacity
@@ -37,7 +37,7 @@ zainab_bawa:
     twitter: https://twitter.com/zainabbawa
     linkedin: https://www.linkedin.com/in/zainabbawa/
     medium: https://medium.com/@zainabbawa
-  about: >
+  description: >
     <p>Zainab Bawa is founder and CEO of HasGeek. She has been curating technology events
     since 2012. Zainab currently works with over 100 reviewers from the community to
     mentor speakers for events conducted via <a href="https://hasgeek.com">hasgeek.com</a>.

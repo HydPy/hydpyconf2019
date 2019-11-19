@@ -64,32 +64,45 @@ $(document).ready(function() {
 
     /* ======= Modal Speaker ========= */
     // https://getbootstrap.com/docs/4.3/components/modal/#events
+
+    function selectorSpeaker(field) {
+        return '#modal_speaker_' + field;
+    }
+
     $('#modal_speaker').on('show.bs.modal', function (e) {
-        if (! speakers) {
-            console.error('Data not found:', 'speakers');
+        var clearFields = ['job', 'company', 'social', 'description'];
+        var clearFieldsSelector = clearFields.reduce(function(selector, field) {
+            return (selector ? selector + ',' : '') + selectorSpeaker(field);
+        }, '');
+        var $link = $(e.relatedTarget);
+        var speakerCode = $link.data('speakerCode');  // from data-speaker-code, https://api.jquery.com/data/#data-html5
+        var speakerName = $link.data('speakerName');
+        var description = $link.data('description');
+        // if (description) description = $('<textarea />').html(description).text();  // unescape HTML entitles
+        $(clearFieldsSelector).empty();  // clear fields that may be missing in the data
+        if (! speakers || ! speakers[speakerCode]) {
+            console.info('No speaker data present. Using Track data');
+            $(selectorSpeaker('name')).html(speakerName);
+            $(selectorSpeaker('description')).html(description);
         } else {
-            var $link = $(e.relatedTarget);
-            var speakerCode = $link.data('speaker');
             var data = speakers[speakerCode];
-            if (! data) {
-                console.error('Speaker not found:', speakerCode);
-            } else {
-                $('#modal_speaker_photo').attr('src', 'assets/images/speakers/' + data['photo']);
-                $('#modal_speaker_label').html(data['name']);
-                for (data_key in data) {
-                    if ('social' === data_key) {
-                        var $social = $('#modal_speaker_' + data_key).empty();  // remove a sample of the social link from the layout
-                        for (social_key in data[data_key]) {
-                            var social_url = data[data_key][social_key].trim();
-                            if (social_url) {
-                                $social.append('<li class="list-inline-item"><a href="' +
-                                    social_url + '"><i class="fab fa-fw fa-' +
-                                    social_key + '"></i></a></li>');
-                            }
+            $(selectorSpeaker('photo')).attr('src', 'assets/images/speakers/' + data['photo']);
+            $(selectorSpeaker('label')).html(data['name']);
+            for (data_key in data) {
+                if ('social' === data_key) {
+                    var $social = $(selectorSpeaker(data_key));
+                    for (social_key in data[data_key]) {
+                        var social_url = data[data_key][social_key].trim();
+                        if (social_url) {
+                            $social.append('<li class="list-inline-item"><a href="' +
+                                social_url + '"><i class="fab fa-fw fa-' +
+                                social_key + '"></i></a></li>');
                         }
-                    } else {
-                        $('#modal_speaker_' + data_key).html(data[data_key]);
                     }
+                } else if ('description' === data_key && description) {
+                    $(selectorSpeaker(data_key)).html(description);
+                } else {
+                    $(selectorSpeaker(data_key)).html(data[data_key]);
                 }
             }
         }
@@ -97,6 +110,6 @@ $(document).ready(function() {
 
     $('#modal_speaker').on('hidden.bs.modal', function (e) {
         // the old photo may be visible for a second after the modal window is opened next time, because the new photo may load slowly
-        $('#modal_speaker_photo').attr('src', '');
+        $(selectorSpeaker('photo')).attr('src', '');
     });
 });
