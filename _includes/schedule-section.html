@@ -42,7 +42,7 @@
 							<div class="col-md-{{ colwidth }}">
 								<div class="content">
 									<h3 class="title mb-3">{{ track.title}}</h3>
-									<div class="location mb-3"><i class="fas fa-map-marker-alt mr-2"></i> Venue: {{ track.venue }}</div>
+									<div class="badge badge-light"> Track {{ forloop.index }}</div>
 									{% include link-speaker.html %}
 								</div><!--//content-->
 							</div>
@@ -94,7 +94,7 @@
 							<div class="col-md-{{ colwidth }}">
 								<div class="content">
 									<h3 class="title mb-3">{{ track.title}}</h3>
-									<div class="location mb-3"><i class="fas fa-map-marker-alt mr-2"></i> Venue: {{ track.venue }}</div>
+									<div class="badge badge-secondary"> Track {{ forloop.index }}</div>
 
 									<!-- Remove this once we speaker data -->
 									<div class="desc">By: {{ track.speaker }}</div>
