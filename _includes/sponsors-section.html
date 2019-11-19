@@ -1,16 +1,27 @@
 <section id="sponsors-section" class="sponsors-section section">
 	<div class="container">
 		<h3 class="section-heading text-center mb-3">Sponsors</h3>
-		<div class="section-intro text-center mx-auto mb-5">PyConf Hyderabad is entirely driven by volunteers. Sponsoring the event helps to sustain and grow the conference as well as the community. Sponsors help in making the conference affordable, and maintaining the inventory for the conference. Want to become a sponsor? Please check our Sponsorship Prospectus. </div>
-			<div class="sponsors-cta text-center"><a class="btn-primary btn btn-lg" href="assets/sponsorship_prospectus.pdf" target="_blank">Sponsorship Prospectus</a></div>
-		<!-- <div class="row logos justify-content-center">
-
-			{% for sponsor in site.data.sponsors %}
-			<div class="logo-item col-6 col-md-4 col-lg-2">
-				<img src="assets/images/logos/{{ sponsor.name }}.svg" alt="{{ sponsor.name }}">
-			</div>
-			{% endfor %}
-		</div> -->
+		<div class="section-intro text-center mx-auto mb-4">PyConf Hyderabad is entirely driven by volunteers. Sponsoring the event helps to sustain and grow the conference as well as the community. Sponsors help in making the conference affordable, and maintaining the inventory for the conference. Want to become a sponsor? Please check our Sponsorship Prospectus. </div>
+			
+		<div class="sponsors-cta text-center mb-5">
+			<a class="btn-primary btn btn-lg" href="assets/sponsorship_prospectus.pdf" target="_blank">Sponsorship Prospectus</a>
+		</div>
+			
+		{% for sponsor in site.data.sponsors %}
+			{% assign sponsor_type = sponsor[0] %}
+			{% assign sponsor_data = sponsor[1] %}
+			<h3 class="section-heading text-center mb-3">{{ sponsor_type | upcase }}</h3>
+				<div class="row logos justify-content-center my-5">
+				{% for item in sponsor_data %}
+					{% comment %} {{item.description | markdownify}} {% endcomment %}
+					<div class="logo-item col-6 col-md-6 col-lg-2">
+						<a href="{{item.link}}">
+							<img src="assets/images/logos/{{ item.photo }}" alt="{{ item.alt-text }}">
+						</a>
+					</div>
+				{% endfor %}
+				</div>
+		{% endfor %}
 		<!--//row-->
 	</div>
 	<!--//container-->
