@@ -48,7 +48,7 @@
         venue: Track 2
       -
         title: Computational Linear Algebra & Applications in Data Science
-        speaker: "Jaidev Deshpande"
+        speaker: Jaidev Deshpande
         description: >
           This workshop focuses on building a computational foundation for working with
           matrices within the Python ecosystem. It is a distillation of Gilbert Strang's
@@ -83,7 +83,7 @@
         audience_type: ""
         venue: Track 1
       -
-        title: AI-Based chatbot building using open source bot-building framework"
+        title: AI-Based chatbot building using open source bot-building framework
         speaker: yogesh_kothiya
         description: >
           Chatbots are the talk of the town, right? Businesses desperately need it because
@@ -158,7 +158,21 @@
       -
         title: Unit Testing with Mocks
         speaker: Vijay Kumar
-        description: ""
+        description: >
+          <p>The workshop is aimed at people who are familiar with Python basics, and would
+          like to improve their skills, by learning how to write professional quality
+          Python code.</p>
+
+          <p>Modifying Python code without unit test cases is like walking through a field
+          of landmines. Python's dynamic nature allows typos in variable / attribute names,
+          and incorrect indentation to go unnoticed, until a specific input drives it
+          through the erroneous code path. Integration testing be it manual or automated
+          is insufficient and can at times be frustrating for Python code.</p>
+
+          <p>Fortunately Python's ecosystem has a plethora of libraries that makes it easy
+          to write unit test cases, by providing the needed infrastructure. Through this
+          workshop we will show how to use the py.test framework for writing test cases.
+          We will cover how dependencies can be isolated using mocking and patching.</p>
         category: ""
         audience_type: ""
         venue: Track 1
