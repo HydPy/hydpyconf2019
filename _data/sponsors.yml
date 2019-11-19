@@ -1,3 +1,21 @@
-# Put sponsor names below and add the svgs under assets/images/logos
-- name: sponsor 1
-- name: sponsor 2
+--- 
+associate:
+  - 
+    alt-text: "Python Weekly Learning"
+    class: "Associate"
+    description: >-
+      Weekly Python Exercise is a family of courses by Reuven Lerner that help you to improve your coding skills via 
+      a combination of weekly exercises. Between the `pytest` tests, the private forum in which students exchange solutions and ideas, and monthly, 
+      live office hours, you'll improve your Python one week at a time. 
+      New cohorts start every 1-2 months, at both beginner and advanced levels. 
+      Also, Residents of India get a 40% discount on WPE and all of Reuven Lerner's courses -- including NumPy, Pandas, and object-oriented Python.
+    link: "http://WeeklyPythonExercise.com/"
+    photo: wpe-logo.svg
+
+inkind:
+  - 
+    alt-text: Manning
+    class: "In Kind"
+    description: "Manning is an independent publisher of computer books for software developers, engineers, architects, system administrators, managers and all who are professionally involved with the computer business. The books we publish cover a huge range of topics that the modern developer needs; from languages and frameworks, to best practices for team leaders."
+    link: "https://www.manning.com/"
+    photo: manning.png
