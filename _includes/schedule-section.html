@@ -42,17 +42,9 @@
 							<div class="col-md-{{ colwidth }}">
 								<div class="content">
 									<h3 class="title mb-3">{{ track.title}}</h3>
-<<<<<<< HEAD
 									{% include link-speaker.html %}
 									<div class="badge badge-light"> Track {{ forloop.index }}</div>
 								</div><!--//content-->
-=======
-									<div class="location mb-3"><i class="fas fa-map-marker-alt mr-2"></i> Venue: {{ track.venue }}</div>
-									{% unless track.speaker == "TBD" or track.speaker == "" %}
-										<div class="desc">By: {{ track.speaker }}</div>
-									{% endunless %}
-								</div><!--//content-->	
->>>>>>> Use conditional logic instead of comments to automatically hide and show speakers.
 							</div>
 						{% endfor %}
 
@@ -102,7 +94,6 @@
 							<div class="col-md-{{ colwidth }}">
 								<div class="content">
 									<h3 class="title mb-3">{{ track.title}}</h3>
-<<<<<<< HEAD
 
 									<!-- Remove this once we speaker data -->
 									<div class="desc">By: {{ track.speaker }}</div>
@@ -113,13 +104,6 @@
 									<div class="badge badge-secondary"> Track {{ forloop.index }}</div>
 
 								</div><!--//content-->
-=======
-									<div class="location mb-3"><i class="fas fa-map-marker-alt mr-2"></i> Venue: {{ track.venue }}</div>
-									{% unless track.speaker == "TBD" or track.speaker == "" %}
-										<div class="desc">By: {{ track.speaker }}</div>
-									{% endunless %}
-								</div><!--//content-->	
->>>>>>> Use conditional logic instead of comments to automatically hide and show speakers.
 							</div>
 						{% endfor %}
 
