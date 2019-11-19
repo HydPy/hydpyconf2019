@@ -64,6 +64,11 @@ $(document).ready(function() {
 
     /* ======= Modal Speaker ========= */
     // https://getbootstrap.com/docs/4.3/components/modal/#events
+
+    function selectorSpeaker(field) {
+        return '#modal_speaker_' + field;
+    }
+
     $('#modal_speaker').on('show.bs.modal', function (e) {
         var clearFields = ['job', 'company', 'social', 'description'];
         var clearFieldsSelector = clearFields.reduce(function(selector, field) {
@@ -76,7 +81,7 @@ $(document).ready(function() {
         // if (description) description = $('<textarea />').html(description).text();  // unescape HTML entitles
         $(clearFieldsSelector).empty();  // clear fields that may be missing in the data
         if (! speakers || ! speakers[speakerCode]) {
-            console.error('Speaker not found:', speakerCode);
+            console.info('No speaker data present. Using Track data');
             $(selectorSpeaker('name')).html(speakerName);
             $(selectorSpeaker('description')).html(description);
         } else {
@@ -107,8 +112,4 @@ $(document).ready(function() {
         // the old photo may be visible for a second after the modal window is opened next time, because the new photo may load slowly
         $(selectorSpeaker('photo')).attr('src', '');
     });
-    
-    function selectorSpeaker(field) {
-        return '#modal_speaker_' + field;
-    }
 });
