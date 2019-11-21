@@ -189,7 +189,7 @@
         venue: Track 2
       -
         title: Numba and Dask
-        speaker: Vijay Yellepedi
+        speaker: Vijay Yellepeddi
         description: >
           <p>In this talk, I would introduce dask & numba, two libraries which enable
           parallelism at scale and compare it with Apache Spark. I would then use a
