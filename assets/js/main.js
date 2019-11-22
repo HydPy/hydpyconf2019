@@ -75,21 +75,20 @@ $(document).ready(function() {
             return (selector ? selector + ',' : '') + selectorSpeaker(field);
         }, '');
         var $link = $(e.relatedTarget);
-        var speakerCode = $link.data('speakerCode');  // from data-speaker-code, https://api.jquery.com/data/#data-html5
-        var speakerName = $link.data('speakerName');
+        var speakerCode = $link.data('speaker');
+        var title = $link.data('title');
         var description = $link.data('description');
-        // if (description) description = $('<textarea />').html(description).text();  // unescape HTML entitles
         $(clearFieldsSelector).empty();  // clear fields that may be missing in the data
+		$(selectorSpeaker('photo')).attr('src', '').hide();
         if (! speakers || ! speakers[speakerCode]) {
-            console.info('No speaker data present. Using Track data');
-            $(selectorSpeaker('name')).html(speakerName);
+            $(selectorSpeaker('name')).html(title);
             $(selectorSpeaker('description')).html(description);
         } else {
             var data = speakers[speakerCode];
             if (data['photo']) {
-                $(selectorSpeaker('photo')).attr('src', 'assets/images/speakers/' + data['photo']);
+                $(selectorSpeaker('photo')).attr('src', 'assets/images/speakers/' + data['photo']).show();
             }
-              
+
             $(selectorSpeaker('label')).html(data['name']);
             for (data_key in data) {
                 if ('social' === data_key) {
@@ -109,10 +108,5 @@ $(document).ready(function() {
                 }
             }
         }
-    });
-
-    $('#modal_speaker').on('hidden.bs.modal', function (e) {
-        // the old photo may be visible for a second after the modal window is opened next time, because the new photo may load slowly
-        $(selectorSpeaker('photo')).attr('src', '');
     });
 });
