@@ -41,7 +41,7 @@
 							{% assign colwidth = 8 | divided_by: forloop.length %}
 							<div class="col-md-{{ colwidth }}">
 								<div class="content">
-									<h3 class="title mb-3">{{ track.title}}</h3>
+									<h3 class="title mb-3">{% include link-workshop.html %}</h3>
 									{% include link-speaker.html %}
 									<div class="badge badge-light"> Track {{ forloop.index }}</div>
 								</div><!--//content-->
@@ -62,7 +62,7 @@
 						{% for track in workshop.tracks %}
 							<div class="col-md-8">
 								<div class="content">
-									<h3 class="title mb-3">{{ track.title}}</h3>
+									<h3 class="title mb-3">{% include link-workshop.html %}</h3>
 								</div><!--//content-->
 							</div>
 						{% endfor %}

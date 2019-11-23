@@ -9,14 +9,14 @@
 				{% if speaker_data.keynote %}
 				<div class="col-12 col-md-3 offset-md-2 mb-4">
 					<div class="card rounded-0">
-				    	<a href="#modal_speaker" data-toggle="modal" data-speaker-code="{{ speaker_code }}"><img src="assets/images/speakers/{{ speaker_data.photo }}" class="card-img-top rounded-0" alt="{{ speaker_data.name }}"></a>
+				    	<a href="#modal_speaker" data-toggle="modal" data-speaker="{{ speaker_code }}"><img src="assets/images/speakers/{{ speaker_data.photo }}" class="card-img-top rounded-0" alt="{{ speaker_data.name }}"></a>
 						<div class="card-body">
 							<h5 class="card-title mb-2">{{ speaker_data.name }}</h5>
 							<div class="card-text mb-3">
 								<div class="meta">{{ speaker_data.job }}</div>
 								<div class="meta">{{ speaker_data.company }}</div>
 							</div><!--//card-text-->
-							<a href="#modal_speaker" data-toggle="modal" data-speaker-code="{{ speaker_code }}">Read more &rarr;</a>
+							<a href="#modal_speaker" data-toggle="modal" data-speaker="{{ speaker_code }}">Read more &rarr;</a>
 						</div><!--//card-->
 						<div class="card-footer text-muted">
 							<ul class="social-list list-inline mb-0">

@@ -1,0 +1,5 @@
+{% if track.description and track.description != "TBD" and track.description != "" %}
+	<a class="link" href="#modal_speaker" data-toggle="modal" data-title="{{ track.title }}" data-description="{{ track.description }}">{{ track.title }}</a>
+{% else %}
+	{{ track.title }}
+{% endif %}
