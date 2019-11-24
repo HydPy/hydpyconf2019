@@ -16,7 +16,7 @@
     time: "9:45AM - 10:45AM"
     type: 'keynote'
     tracks:
-      - {title: "Opening Keynote: ",speaker: "Dr. Sarabjot Singh Anand",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Opening Keynote",speaker: "sarabjot_singh",description: "",category: "",audience_type: "",venue: "TBD"}
 
   -
     time: "10:45AM - 11:15AM"
@@ -78,4 +78,4 @@
     time: "5:00PM - 6:00PM"
     type: 'keynote'
     tracks:
-      - {title: "Closing Keynote", speaker: "Zainab Bawa", venue: "TBD"}
+      - {title: "Closing Keynote", speaker: "zainab_bawa", venue: "TBD"}
