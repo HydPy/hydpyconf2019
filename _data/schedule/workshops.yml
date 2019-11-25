@@ -7,47 +7,203 @@
   -
     time: "09:30AM - 11:00AM"
     tracks:
-      - {title: "Containarized Development using Docker",speaker: "Sanchit Balchandani",description: "",category: "",audience_type: "",venue: "Track 1"}
-      - {title: "Intro to data science",speaker: "Grishma Jena",description: "",category: "",audience_type: "",venue: "Track 2"}
-      - {title: "Computational Linear Algebra & Applications in Data Science",speaker: "Jaidev Deshpande",description: "",category: "",audience_type: "",venue: "Track 3"}
-#      - {title: "Workshop 1",speaker: "james_dooooo",description: "",category: "",audience_type: "",venue: "TBD"}
-#      - {title: "Workshop 2",speaker: "jane_doe",description: "",category: "",audience_type: "",venue: "TBD"}
+      -
+        title: Containarized Development using Docker
+        speaker: sanchit_balchandani
+        description: >
+          <p>Modern-day development has to be fast-paced. Docker and Container toolset helps
+          us achieve this up to a certain extent. Especially when working in a large team
+          environment and with too many microservices, it becomes very difficult to manage
+          apps and there CI/CD, setup steps, etc. With Docker and Containers, we can solve
+          the above-mentioned problem set.</p>
+
+          <p>In this Workshop, attendees will get an intermediate level of introduction to
+          Docker and Docker Compose with the help of some real-time use cases and demos.
+          Sanchit will demonstrate and explain how Docker makes the developer more
+          efficient. This would be a one and half hour workshop so we'd avoid discussing
+          the very basics of Containers, Virtual Machines of Microservice, though we'll
+          focus on to understand how to approach containerizing an application.</p>
+
+          Introduction to Docker<br/>
+          Introduction to Docker Image<br/>
+          Dockerizing a Basic Python App (Demo)<br/>
+          Dockerizing Multiple Microservices (Demo)<br/>
+          Intro to Docker Compose<br/>
+          Dockerizing Multiple Microservice using DC (Demo)<br/>
+          Best Practices of Docker & Docker-Compose<br/>
+          Intro to Docker Volumes & Networking<br/>
+        category: ""
+        audience_type: ""
+        venue: Track 1
+      -
+        title: Intro to data science
+        speaker: grishma_jena
+        description: >
+          Want to perform Data Science but don’t know how to go about it? Have a dataset
+          that you really want to analyze but not sure where to start? This hands-on
+          session teaches how to explore datasets, use Machine Learning algorithms and
+          derive insights from predictive models using popular tools in Python
+        category: ""
+        audience_type: ""
+        venue: Track 2
+      -
+        title: Computational Linear Algebra & Applications in Data Science
+        speaker: Jaidev Deshpande
+        description: >
+          This workshop focuses on building a computational foundation for working with
+          matrices within the Python ecosystem. It is a distillation of Gilbert Strang's
+          MIT OCW course on Matrix Methods in Data Analysis, Signal Processing and Machine
+          Learning. This will be an intermediate level workshop which introduces participants
+          to applications of linear algebra in signal processing, statistics and machine
+          learning. Participants will learn how to apply the scientific Python stack (NumPy,
+          SciPy and sklearn) to these problems with real world examples.
+
+        category: ""
+        audience_type: ""
+        venue: Track 3
 
   -
     time: "11:00AM - 11:30AM"
     type: 'other'
     tracks:
       - {title: Tea Break, venue: "TBD"}
-  
+
   -
     time: "11:30AM - 1:00PM"
     tracks:
-      - {title: "Kubernetes for dev - myth or reality ?",speaker: "Arun Chaudhary",description: "",category: "",audience_type: "",venue: "Track 1"}
-      - {title: "AI-Based chatbot building using open source bot-building framework",speaker: "Yogesh Kothiya",description: "",category: "",audience_type: "",venue: "Track 2"}
-      - {title: "Building ML Applications with Gramex",speaker: "Bhanu K",description: "",category: "",audience_type: "",venue: "Track 3"}
-  
+      -
+        title: Kubernetes for dev - myth or reality ?
+        speaker: arun_chaudhary
+        description: >
+          Myth- k8s is a relatively small bit of software you install on each box to
+          make your own cloud; that’s what devs think but it’s not really true. It’s the
+          time to decode k8s and devs need to be empowered. Time to become a cloud native
+          dev and know what’s happening after code push ( infra magic :) )
+        category: ""
+        audience_type: ""
+        venue: Track 1
+      -
+        title: AI-Based chatbot building using open source bot-building framework
+        speaker: yogesh_kothiya
+        description: >
+          Chatbots are the talk of the town, right? Businesses desperately need it because
+          of its simplicity, scalability, automation and other obvious reasons. But truly
+          AI-based, GDPR compliant, customizable and modular chatbot is hard to build?
+          Not anymore with the python-based bot-building framework- rasa
+        category: ""
+        audience_type: ""
+        venue: Track 2
+      -
+        title: Building ML Applications with Gramex
+        speaker: bhanu_k
+        description: >
+          Gramex is an open source data science framework which enables both developers
+          and data scientists to convert their Python projects into web applications.
+          Gramex simplifies the application building process via low code, configuration
+          based approach.
+        category: ""
+        audience_type: ""
+        venue: Track 3
+
   -
     time: "1:00PM - 2:00PM"
     type: 'other'
     tracks:
       - {title: Lunch Time, venue: "TBD"}
-  
+
   -
     time: "2:00PM - 3:30PM"
     tracks:
-      - {title: "Build sophisticated REST api using Django Rest Framework",speaker: "Akshar Raaj",description: "",category: "",audience_type: "",venue: "Track 1"}
-      - {title: "Building a Recommender System in Python",speaker: "Dr. Sarabjot Singh Anand",description: "",category: "",audience_type: "",venue: "Track 2"}
-      - {title: "Animating Science using Python",speaker: "Purusharth Saxena",description: "",category: "",audience_type: "",venue: "Track 3"}
-  
+      -
+        title: Build sophisticated REST api using Django Rest Framework
+        speaker: Akshar Raaj
+        description: >
+          <p>We will extend Django polls tutorial to build an api layer for polls application.
+          These apis could be consumed from a mobile or a web client.</p>
+
+          <p>Audience will walk with a thorough understanding of building apis using DRF.
+          Audience can expect to understand DRF concepts like APIView, ViewSet,
+          ModelViewSet, Routers, Serializers, Authentication and Authorization.<p>
+        category: ""
+        audience_type: ""
+        venue: Track 1
+      -
+        title: Building a Recommender System in Python
+        speaker: sarabjot_singh
+        # description: "Test 1"
+        category: ""
+        audience_type: ""
+        venue: Track 2
+      -
+        title: Animating Science using Python
+        speaker: purusharth_saxena
+        description: >
+          Complex topics can get complicated; they don’t have to be. Join us in this
+          workshop to make some crazy scientific animations using Python. We will start
+          from creating a circle and go till uncovering the simulation of fluid flow,
+          making non-linear transformation, etc (each in under 20 lines of code)
+        category: ""
+        audience_type: ""
+        venue: Track 2
+
   -
     time: "3:30PM - 4:00PM"
     type: 'other'
     tracks:
       - {title: Tea Break, venue: "TBD"}
-    
+
   -
     time: "4:00PM - 5:40PM"
     tracks:
-      - {title: "Unit Testing with Mocks",speaker: "Vijay Kumar",description: "",category: "",audience_type: "",venue: "Track 1"}
-      - {title: "Decrypting ML models using LIME",speaker: "Laisha Wadhwa",description: "",category: "",audience_type: "",venue: "Track 2"}
-      - {title: "Numba and Dask",speaker: "Vijay Yellepedi",description: "",category: "",audience_type: "",venue: "Track 3"}
+      -
+        title: Unit Testing with Mocks
+        speaker: Vijay Kumar
+        description: >
+          <p>The workshop is aimed at people who are familiar with Python basics, and would
+          like to improve their skills, by learning how to write professional quality
+          Python code.</p>
+
+          <p>Modifying Python code without unit test cases is like walking through a field
+          of landmines. Python's dynamic nature allows typos in variable / attribute names,
+          and incorrect indentation to go unnoticed, until a specific input drives it
+          through the erroneous code path. Integration testing be it manual or automated
+          is insufficient and can at times be frustrating for Python code.</p>
+
+          <p>Fortunately Python's ecosystem has a plethora of libraries that makes it easy
+          to write unit test cases, by providing the needed infrastructure. Through this
+          workshop we will show how to use the py.test framework for writing test cases.
+          We will cover how dependencies can be isolated using mocking and patching.</p>
+        category: ""
+        audience_type: ""
+        venue: Track 1
+      -
+        title: Decrypting ML models using LIME
+        speaker: laisha_wadhwa
+        description: >
+          With wide no. of libraries & frameworks available for building ML models, ML has
+          become a black-box these days. Thus model interpretability is vital. But its hard
+          to define a model's decision boundary in simple terms. With LIME its easy to produce
+          faithful explanations and decrypt any ML model.
+        category: ""
+        audience_type: ""
+        venue: Track 2
+      -
+        title: Numba and Dask
+        speaker: Vijay Yellepeddi
+        description: >
+          <p>In this talk, I would introduce dask & numba, two libraries which enable
+          parallelism at scale and compare it with Apache Spark. I would then use a
+          simple example to demonstrate their usage.  I'll briefly talk about using it
+          with GPUs.</p>
+
+          State of parallelism in Python (briefly talk about async/await)<br/>
+          Overview of Python's scientific ecosystem and its current landscape
+          (briefly talk about Tensorflow/Pytorch and Spark) <br/>
+          Introduce Dask and its core features <br/>
+          Introduce Numba and explain JIT briefly <br/>
+          Simple Example 1 <br/>
+          Example 2 with Medium Complexity <br/>
+          Q & A <br/>
+        category: ""
+        audience_type: ""
+        venue: Track 3
