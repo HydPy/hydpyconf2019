@@ -8,7 +8,7 @@
 
   -
     time: "9:20AM - 9:30AM"
-    type: 'keynote'
+    type: 'other'
     tracks:
       - {title: "Opening Address",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
 
@@ -33,18 +33,19 @@
     time: "11:30AM - 12:00PM"
     tracks:
       - {title: "Differentiable programming",speaker: "Srikumar Subramanian",description: "",category: "",audience_type: "",venue: "TBD"}
-      - {title: "The Past and the dubious: Concept Drift",speaker: "Snehith Allamraju",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Continuous Quality for Python: What, How and Why",speaker: "Sanket Saurav",description: "",category: "",audience_type: "",venue: "TBD"}
+      
   -
     time: "12:00PM - 12:30PM"
     tracks:
       - {title: "Nodejs in Python, R in Python",speaker: "Anand S",description: "",category: "",audience_type: "",venue: "TBD"}
-      - {title: "Continuous Quality for Python: What, How and Why",speaker: "Sanket Saurav",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "The Past and the dubious: Concept Drift",speaker: "Snehith Allamraju",description: "",category: "",audience_type: "",venue: "TBD"}
 
   -
     time: "12:30PM - 1:00PM"
     tracks:
       - {title: "ISB Sponsored Talk - Python Usage in Data Science",speaker: "Suryanarayana Ambatipudi",description: "",category: "",audience_type: "",venue: "TBD"}
-      - {title: "TBD",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "How we celebrated our Diwali this year?",speaker: "Anwesha Das",description: "",category: "",audience_type: "",venue: "TBD"}
 
   -
     time: "1:00PM - 2:00PM"
@@ -88,6 +89,6 @@
   
   -
     time: "5:45PM - 6:00PM"
-    type: 'keynote'
+    type: 'other'
     tracks:
       - {title: "Closing Address",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
