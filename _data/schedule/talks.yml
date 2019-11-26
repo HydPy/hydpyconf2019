@@ -45,7 +45,7 @@
     time: "12:30PM - 1:00PM"
     tracks:
       - {title: "ISB Sponsored Talk - Python Usage in Data Science",speaker: "Suryanarayana Ambatipudi",description: "",category: "",audience_type: "",venue: "TBD"}
-      - {title: "How we celebrated our Diwali this year?",speaker: "Anwesha Das",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Diwali with Circuit Python",speaker: "Anwesha Das",description: "",category: "",audience_type: "",venue: "TBD"}
 
   -
     time: "1:00PM - 2:00PM"
@@ -56,7 +56,7 @@
   -
     time: "2:00PM - 2:30PM"
     tracks:
-      - {title: "TBD",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Scalable Automated Machine learning with H2O in Python",speaker: "Parul Pandey",description: "",category: "",audience_type: "",venue: "TBD"}
       - {title: "Python's tale of concurrency",speaker: "Pradhvan Bisht",description: "",category: "",audience_type: "",venue: "TBD"}
   -
     time: "2:30PM - 3:00PM"
@@ -66,7 +66,7 @@
   -
     time: "3:00PM - 3:30PM"
     tracks:
-      - {title: "Scalable Automated Machine learning with H2O in Python",speaker: "Parul Pandey",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Why is problem solving in the enterprise different from Chess, Go, ImageNet or Kaggle challenges?",speaker: "Vikas Agrawal",description: "",category: "",audience_type: "",venue: "TBD"}
       - {title: "Rethinking Python Packaging -- a thought experiment",speaker: "Pradyun Gedam",description: "",category: "",audience_type: "",venue: "TBD"}
 
   -
