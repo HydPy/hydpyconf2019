@@ -23,7 +23,8 @@
           efficient. This would be a one and half hour workshop so we'd avoid discussing
           the very basics of Containers, Virtual Machines of Microservice, though we'll
           focus on to understand how to approach containerizing an application.</p>
-
+          
+          <b>Agenda</b><br/>
           Introduction to Docker<br/>
           Introduction to Docker Image<br/>
           Dockerizing a Basic Python App (Demo)<br/>
@@ -50,14 +51,23 @@
         title: Computational Linear Algebra & Applications in Data Science
         speaker: Jaidev Deshpande
         description: >
-          This workshop focuses on building a computational foundation for working with
+          <p>This workshop focuses on building a computational foundation for working with
           matrices within the Python ecosystem. It is a distillation of Gilbert Strang's
-          MIT OCW course on Matrix Methods in Data Analysis, Signal Processing and Machine
-          Learning. This will be an intermediate level workshop which introduces participants
+          MIT OCW course on <a href='https://ocw.mit.edu/courses/mathematics/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/index.htm'>
+          Matrix Methods in Data Analysis, Signal Processing and Machine Learning</a>.
+          This will be an intermediate level workshop which introduces participants
           to applications of linear algebra in signal processing, statistics and machine
           learning. Participants will learn how to apply the scientific Python stack (NumPy,
-          SciPy and sklearn) to these problems with real world examples.
+          SciPy and sklearn) to these problems with real world examples.</p>
 
+          <p><b>Agenda</b><br/>
+          Introduction & Terminology<br/>
+          Systems of Equation<br/>
+          Fourier Analysis<br/>
+          Matrix factorization<br/>
+          Advanced topics</p>
+
+          <p><b>Prerequisites</b> - Anaconda with sklearn (and therefore numpy and scipy)</p>
         category: ""
         audience_type: ""
         venue: Track 3
@@ -124,6 +134,17 @@
           <p>Audience will walk with a thorough understanding of building apis using DRF.
           Audience can expect to understand DRF concepts like APIView, ViewSet,
           ModelViewSet, Routers, Serializers, Authentication and Authorization.<p>
+
+          <p><b>Agenda</b><br/>
+          Introduction<br/>
+          Api building<br/>
+          Tooling around apis</p>
+
+          <p><b>Prerequisites</b><br/>
+          Beginner level knowledge of Django<br/>
+          Familiarity with ORM<br/>
+          Familiarity with JSON<br/>
+          Basic familiarity with class based views</p>
         category: ""
         audience_type: ""
         venue: Track 1
@@ -195,7 +216,8 @@
           parallelism at scale and compare it with Apache Spark. I would then use a
           simple example to demonstrate their usage.  I'll briefly talk about using it
           with GPUs.</p>
-
+          
+          <p><b>Agenda</b><br/>
           State of parallelism in Python (briefly talk about async/await)<br/>
           Overview of Python's scientific ecosystem and its current landscape
           (briefly talk about Tensorflow/Pytorch and Spark) <br/>
@@ -203,7 +225,11 @@
           Introduce Numba and explain JIT briefly <br/>
           Simple Example 1 <br/>
           Example 2 with Medium Complexity <br/>
-          Q & A <br/>
+          Q & A</p>
+
+          <p><b>Prerequisites</b><br/>
+          Python 3.5+<br/>
+          Basic exposure to scientific python stack i.e numpy, pandas, scikit-learn etc</p>
         category: ""
         audience_type: ""
         venue: Track 3
