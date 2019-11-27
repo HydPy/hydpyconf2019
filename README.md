@@ -1,5 +1,5 @@
 # Python Conference Hyderabad 2019
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors)
 
 ### About Conference
 
@@ -55,6 +55,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://bhansa.github.io"><img src="https://avatars0.githubusercontent.com/u/9723884?v=4" width="100px;" alt="Bharat Saraswat"/><br /><sub><b>Bharat Saraswat</b></sub></a><br /><a href="https://github.com/HydPy/hydpyconf2019/commits?author=bhansa" title="Code">💻</a> <a href="#design-bhansa" title="Design">🎨</a> <a href="#ideas-bhansa" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/HydPy/hydpyconf2019/issues?q=author%3Abhansa" title="Bug reports">🐛</a> <a href="#review-bhansa" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/HydPy/hydpyconf2019/commits?author=bhansa" title="Tests">⚠️</a> <a href="#content-bhansa" title="Content">🖋</a> <a href="#maintenance-bhansa" title="Maintenance">🚧</a></td>
     <td align="center"><a href="https://ilovefoss.wordpress.com/"><img src="https://avatars1.githubusercontent.com/u/10486343?v=4" width="100px;" alt="Ananyo Maiti"/><br /><sub><b>Ananyo Maiti</b></sub></a><br /><a href="https://github.com/HydPy/hydpyconf2019/commits?author=ananyo2012" title="Code">💻</a> <a href="#review-ananyo2012" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/HydPy/hydpyconf2019/issues?q=author%3Aananyo2012" title="Bug reports">🐛</a> <a href="#content-ananyo2012" title="Content">🖋</a> <a href="#infra-ananyo2012" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-ananyo2012" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://github.com/aditya-369"><img src="https://avatars0.githubusercontent.com/u/16273418?v=4" width="100px;" alt="aditya_369"/><br /><sub><b>aditya_369</b></sub></a><br /><a href="https://github.com/HydPy/hydpyconf2019/commits?author=aditya-369" title="Code">💻</a></td>
   </tr>
 </table>
 
