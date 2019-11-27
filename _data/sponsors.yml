@@ -1,4 +1,12 @@
 --- 
+gold:
+  - 
+    alt-text: "pramati"
+    class: "gold"
+    description: >-
+      Pramati Technologies, a privately held software company, builds independent technology businesses focused on profitable, well-defined markets in digital, social, mobile, and cloud computing. Among its ventures are the low-code platform WaveMaker Inc., the micro apps management  platform SpotCues Inc., and the enterprise innovation services company Imaginea Technologies Inc. Pramati seeds ideas through its Mountain View based startup accelerator arm, Pramati Prism that nurtures and scales them into profitable ventures. The portfolio includes the strong authentication service provider ThumbSignin, the next-gen app deployment platform HyScale, micro-conversions solution Chatlets.ai, and the API management platform Apitive.
+    link: "https://www.pramati.com/"
+    photo: pramati.png
 silver: 
   - 
     alt-text: "deepsource"
@@ -9,6 +17,15 @@ silver:
       DeepSource is trusted by engineering teams at NASA, Uber, Slack, Wingify, Qubole, among many others, and is free to use for open-source.
     link: "http://deepsource.io"
     photo: deepsource.png
+
+  - 
+    alt-text: "pipal academy"
+    class: "silver"
+    description: >-
+      Pipal Academy is a collective of experienced technologists, who care deeply about the art of software development. We offer in-depth courses on niche technical topics.
+      We regularly conduct public workshops and also offer on site corporate trainings. Our courses are targeted at professional software developers and we make sure they are hands-on and interactive. Very often the participants finish our courses with lot of excitement and joy of learning.
+    link: "https://pipal.in"
+    photo: pipal.png
 
 community partner: 
   - 
