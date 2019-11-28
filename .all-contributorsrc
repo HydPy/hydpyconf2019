@@ -104,6 +104,15 @@
         "infra",
         "maintenance"
       ]
+    },
+    {
+      "login": "aditya-369",
+      "name": "aditya_369",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/16273418?v=4",
+      "profile": "https://github.com/aditya-369",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
