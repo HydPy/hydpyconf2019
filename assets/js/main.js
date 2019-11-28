@@ -109,4 +109,22 @@ $(document).ready(function() {
             }
         }
     });
+
+    /* ======= Modal Sponsor ========= */
+   
+    function selectorSponsor(field) {
+        return '#modal_sponsor_' + field;
+    }
+
+    $('#modal_sponsor').on('show.bs.modal', function (e) {
+        var $link = $(e.relatedTarget);
+        var title = $link.data('title');
+        var description = $link.find('.item-description').html()
+        var photo = $link.data('photo');
+        $(selectorSponsor('photo')).attr('src', '').hide();
+        $(selectorSponsor('photo')).attr('src', 'assets/images/logos/' + photo).show();
+        $(selectorSponsor('name')).html(title);
+        $(selectorSponsor('description')).html(description);
+    });
+
 });

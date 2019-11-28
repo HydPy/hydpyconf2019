@@ -6,17 +6,21 @@
 		<div class="sponsors-cta text-center mb-5">
 			<a class="btn-primary btn btn-lg" href="assets/sponsorship_prospectus.pdf" target="_blank">Sponsorship Prospectus</a>
 		</div>
+
+		<hr />
 			
 		{% for sponsor in site.data.sponsors %}
 			{% assign sponsor_type = sponsor[0] %}
 			{% assign sponsor_data = sponsor[1] %}
-			<h3 class="section-heading text-center mb-3">{{ sponsor_type | upcase }}</h3>
+			<h5 class="section-heading text-center mb-3">{{ sponsor_type | upcase }}</h5>
 				<div class="row logos justify-content-center my-5">
 				{% for item in sponsor_data %}
-					{% comment %} {{item.description | markdownify}} {% endcomment %}
 					<div class="logo-item col-6 col-md-6 col-lg-2">
-						<a href="{{item.link}}">
+						<a href="#modal_sponsor" data-toggle="modal" data-title="{{item.alt-text | upcase }}" data-description="{{item.description}}" data-photo="{{item.photo}}">
 							<img src="assets/images/logos/{{ item.photo }}" alt="{{ item.alt-text }}">
+							<div class="item-description d-none">	
+								{{item.description | markdownify}}
+							</div>
 						</a>
 					</div>
 				{% endfor %}
