@@ -171,3 +171,17 @@ laisha_wadhwa:
 
     <p>While I am not working I like to spend my time drawing and listening to music
     (Marsh mellow and Alicia keys). Sometimes you can also find me drawing comics.</p>
+
+jaidev_deshpande:
+  keynote: false
+  name: Jaidev Deshpande
+  job: Senior Data Scientist
+  company: Gramener, Inc.
+  photo: jaidevd.jpg
+  social:
+    linkedin: https://www.linkedin.com/in/jaidevd
+  description: >
+    <p>Jaidev Deshpande is a data scientist at Gramener, Inc.
+    He works on the architecture and development of data driven applications.
+    He's an active member of the Python community - you're likely to run into him at
+    FOSS events.</p>

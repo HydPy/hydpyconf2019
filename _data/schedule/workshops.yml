@@ -24,7 +24,7 @@
           the very basics of Containers, Virtual Machines of Microservice, though we'll
           focus on to understand how to approach containerizing an application.</p>
           
-          <b>Agenda</b><br/>
+          <p><b>Brief Agenda</b><br/>
           Introduction to Docker<br/>
           Introduction to Docker Image<br/>
           Dockerizing a Basic Python App (Demo)<br/>
@@ -32,7 +32,9 @@
           Intro to Docker Compose<br/>
           Dockerizing Multiple Microservice using DC (Demo)<br/>
           Best Practices of Docker & Docker-Compose<br/>
-          Intro to Docker Volumes & Networking<br/>
+          Intro to Docker Volumes & Networking</p>
+
+          <p><b>Prerequisites</b> - Basics of Python and Web Development</p>
         category: ""
         audience_type: ""
         venue: Track 1
@@ -40,16 +42,30 @@
         title: Intro to data science
         speaker: grishma_jena
         description: >
-          Want to perform Data Science but don’t know how to go about it? Have a dataset
+          <p>Want to perform Data Science but don’t know how to go about it? Have a dataset
           that you really want to analyze but not sure where to start? This hands-on
           session teaches how to explore datasets, use Machine Learning algorithms and
-          derive insights from predictive models using popular tools in Python
+          derive insights from predictive models using popular tools in Python</p>
+
+          <p><b>Brief Agenda</b><br/>
+          Overview of Data Science<br/>
+          Introduction to tools used with a focus on Jupyter<br/>
+          Forming questions and hypotheses about data<br/>
+          Exploring the dataset<br/>
+          Cleaning the dataset<br/>
+          Feature engineering and feature selection<br/>
+          Supervised learning - Classification and Regression<br/>
+          Unsupervised learning - Clustering<br/>
+          Model evaluation<br/>
+          Data visualization<br/>
+          Additional resources</p>
+
         category: ""
         audience_type: ""
         venue: Track 2
       -
         title: Computational Linear Algebra & Applications in Data Science
-        speaker: Jaidev Deshpande
+        speaker: jaidev_deshpande
         description: >
           <p>This workshop focuses on building a computational foundation for working with
           matrices within the Python ecosystem. It is a distillation of Gilbert Strang's
@@ -60,7 +76,7 @@
           learning. Participants will learn how to apply the scientific Python stack (NumPy,
           SciPy and sklearn) to these problems with real world examples.</p>
 
-          <p><b>Agenda</b><br/>
+          <p><b>Brief Agenda</b><br/>
           Introduction & Terminology<br/>
           Systems of Equation<br/>
           Fourier Analysis<br/>
@@ -85,10 +101,29 @@
         title: Kubernetes for dev - myth or reality ?
         speaker: arun_chaudhary
         description: >
-          Myth- k8s is a relatively small bit of software you install on each box to
+          <p>Myth- k8s is a relatively small bit of software you install on each box to
           make your own cloud; that’s what devs think but it’s not really true. It’s the
           time to decode k8s and devs need to be empowered. Time to become a cloud native
-          dev and know what’s happening after code push ( infra magic :) )
+          dev and know what’s happening after code push ( infra magic :) )</p>
+          
+          <p><b>Brief Agenda</b><br/>
+          Introduction to Kubernetes<br/>
+          Kubernetes Components<br/>
+          Kubernetes API<br/>
+          Kubernetes Objects<br/>
+          Architecture Overview<br/>
+          Deployments<br/>
+          Services<br/>
+          Networking<br/>
+          Managing secrets</p>
+
+          <p><b>Prerequisites</b><br/>
+          Basics of Python and Web Development<br/>
+          Basics of Docker/Container<br/>
+          Basics of Linux<br/>
+          A GCP (Google Cloud Platform) with k8s cluster up and running
+          <a href='https://cloud.google.com/kubernetes-engine/docs/how-to/creating-a-cluster'>Link</a></p>
+
         category: ""
         audience_type: ""
         venue: Track 1
@@ -96,10 +131,23 @@
         title: AI-Based chatbot building using open source bot-building framework
         speaker: yogesh_kothiya
         description: >
-          Chatbots are the talk of the town, right? Businesses desperately need it because
+          <p>Chatbots are the talk of the town, right? Businesses desperately need it because
           of its simplicity, scalability, automation and other obvious reasons. But truly
           AI-based, GDPR compliant, customizable and modular chatbot is hard to build?
-          Not anymore with the python-based bot-building framework- rasa
+          Not anymore with the python-based bot-building framework- rasa</p>
+
+          <p><b>Brief Agenda</b><br/>
+          Get to know the scope of the bot<br/>
+          Introduction to Zomato API<br/>
+          Introduction to rasa<br/>
+          Get to know to rasa components<br/>
+          Get to know rasa configurations<br/>
+          Going through training data and configuration files<br/>
+          Get to know rasa commands<br/>
+          Walkthrough of rasa x<br/>
+          Demo of complete bot<br/>
+          Hands-on</p>
+
         category: ""
         audience_type: ""
         venue: Track 2
@@ -107,10 +155,17 @@
         title: Building ML Applications with Gramex
         speaker: bhanu_k
         description: >
-          Gramex is an open source data science framework which enables both developers
+          <p>Gramex is an open source data science framework which enables both developers
           and data scientists to convert their Python projects into web applications.
           Gramex simplifies the application building process via low code, configuration
-          based approach.
+          based approach.</p>
+
+          <p><b>Brief Agenda</b><br/>
+          Gramex as an HTTP Server<br/>
+          Data Management<br/>
+          Files and Templates<br/>
+          Putting it all together</p>
+
         category: ""
         audience_type: ""
         venue: Track 3
@@ -135,7 +190,7 @@
           Audience can expect to understand DRF concepts like APIView, ViewSet,
           ModelViewSet, Routers, Serializers, Authentication and Authorization.<p>
 
-          <p><b>Agenda</b><br/>
+          <p><b>Brief Agenda</b><br/>
           Introduction<br/>
           Api building<br/>
           Tooling around apis</p>
@@ -159,10 +214,24 @@
         title: Animating Science using Python
         speaker: purusharth_saxena
         description: >
-          Complex topics can get complicated; they don’t have to be. Join us in this
+          <p>Complex topics can get complicated; they don’t have to be. Join us in this
           workshop to make some crazy scientific animations using Python. We will start
           from creating a circle and go till uncovering the simulation of fluid flow,
-          making non-linear transformation, etc (each in under 20 lines of code)
+          making non-linear transformation, etc (each in under 20 lines of code)</p>
+
+          <p><b>Brief Agenda</b><br/>
+          Creating a scene with geometric Objects and working with different shapes<br/>
+          Writing text on the Scene<br/>
+          Rotating and Transforming Objects<br/>
+          Creating Shapes, axes, complex / linear / non-linear transformation<br/>
+          Important Manim Functions & VMobject<br/>
+          Creating 3D functions, Number plane, Parametric Functions<br/>
+          Parametric Surface, VectorField<br/>
+          Breaking down an example video<br/>
+          <a href='https://github.com/3b1b/manim'>manim</a> Source code walkthrough<br/>
+          Contribution opportunities with manim</br/>
+          Q&A</p>
+
         category: ""
         audience_type: ""
         venue: Track 2
@@ -194,6 +263,16 @@
           to write unit test cases, by providing the needed infrastructure. Through this
           workshop we will show how to use the py.test framework for writing test cases.
           We will cover how dependencies can be isolated using mocking and patching.</p>
+
+          <p><b>Brief Agenda</b><br/>
+          Introduction to Unit Testing<br/>
+          Getting Started with py.test Unit Testing Framework<br/>
+          Mocking and Patching<br/></p>
+
+          <p><b>Prerequisites</b><br/>
+          Familiarity with basic Object Oriented Programming with Python<br/>
+          <b>Software Requirements</b> - Python 3, py.test, pygame<br/></p>
+
         category: ""
         audience_type: ""
         venue: Track 1
@@ -201,10 +280,26 @@
         title: Decrypting ML models using LIME
         speaker: laisha_wadhwa
         description: >
-          With wide no. of libraries & frameworks available for building ML models, ML has
+          <p>With wide no. of libraries & frameworks available for building ML models, ML has
           become a black-box these days. Thus model interpretability is vital. But its hard
           to define a model's decision boundary in simple terms. With LIME its easy to produce
-          faithful explanations and decrypt any ML model.
+          faithful explanations and decrypt any ML model.</p>
+
+          <b>Brief Agenda</b><br/>
+          <p>The workshop will be primarily highlighting the necessity of understanding the
+          outputs of ML models to build a profound understanding of how ML works.</p>
+          
+          <p>At the end of the workshop you’ll know how to explain your model to possible anyone!
+          This makes it easier for you to sell your Business idea.</p>
+
+          <p>In order to create trust in our model, we need to explain the model not only to
+          ML experts but also to domain experts which require a human understandable
+          explanation. You’ll be equipped in creating a model agnostic locally faithful
+          explanation set which helps even the non experts in understanding how the original
+          model is making it’s decision.</p>
+
+          <p>All this sounds exciting, to add to this, a demonstration on the classic TITANIC
+          data-set will be given to build a profound understanding of the concepts discussed.</p>
         category: ""
         audience_type: ""
         venue: Track 2
@@ -217,10 +312,9 @@
           simple example to demonstrate their usage.  I'll briefly talk about using it
           with GPUs.</p>
           
-          <p><b>Agenda</b><br/>
+          <p><b>Brief Agenda</b><br/>
           State of parallelism in Python (briefly talk about async/await)<br/>
-          Overview of Python's scientific ecosystem and its current landscape
-          (briefly talk about Tensorflow/Pytorch and Spark) <br/>
+          Overview of Python's scientific ecosystem and its current landscape<br/>
           Introduce Dask and its core features <br/>
           Introduce Numba and explain JIT briefly <br/>
           Simple Example 1 <br/>
