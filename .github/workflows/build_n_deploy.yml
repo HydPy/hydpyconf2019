@@ -1,5 +1,8 @@
 name: Trigger Deploy Script
-on: [push]
+on:
+  push:
+     branches:
+       - master
 jobs:
   build:
     name: Build
@@ -9,7 +12,7 @@ jobs:
         uses: HydPy/hydpyconf2019@ci-cd
         with:
           command: |
-            deploy 2019
+            /root/deploy.py 2019
           host: ${{ secrets.HOST }}
           user: ${{ secrets.USER }}
           key: ${{ secrets.KEY }}
