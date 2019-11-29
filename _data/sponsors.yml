@@ -1,4 +1,14 @@
 --- 
+learning partner:
+  -
+    alt-text: "ISB INSTITUTE OF DATA SCIENCE (IIDS)"
+    class: "Learning Partner"
+    description: >
+      The ISB Institute of Data Science researches in different domains of business analytics and data science; organises conferences and workshops, to designs and delivers the short and long duration programmes for working professionals in Machine Learning, Artificial Intelligence, and Data Science applications in business. Its flagship, Advanced Management Programme in Business Analytics (AMPBA) equips professionals with the skills of a business analyst and data scientist, beginning with statistical analysis, and going up to machine learning and application of analytics in business. The institute provides data analytics support to various departments, research centres and institutes at ISB.
+      
+      Also, IIDS aims to designs and develop AI and analytics solutions to industry to address complex business problems.
+    link: "https://www.isb.edu/advanced-management-programme-in-business-analytics"
+    photo: IIDS.png
 gold:
   - 
     alt-text: "pramati"
