@@ -1,0 +1,15 @@
+name: Trigger Deploy Script
+on: [push]
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run deploy script
+        uses: HydPy/hydpyconf2019@ci-cd
+        with:
+          command: |
+            deploy 2019
+          host: ${{ secrets.HOST }}
+          user: ${{ secrets.USER }}
+          key: ${{ secrets.KEY }}
