@@ -10,7 +10,6 @@ jobs:
     steps:
       - name: Run deploy script
         uses: HydPy/hydpyconf2019@ci-cd
-        shell: bash
         with:
           command: |
             source /root/.bashrc
