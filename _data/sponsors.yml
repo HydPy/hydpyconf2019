@@ -37,16 +37,6 @@ silver:
     link: "https://pipal.in"
     photo: pipal.png
 
-community partner: 
-  - 
-    alt-text: "aws"
-    class: "community partner"
-    description: >-
-      For 10 years, Amazon Web Services has been the world’s most comprehensive and broadly adopted cloud platform. AWS offers over 90 fully featured services for compute, storage, databases, analytics, mobile, Internet of Things (IoT) and enterprise applications from 42 Availability Zones (AZs) across 16 geographic regions in the U.S., Australia, Brazil, Canada, China, Germany, India, Ireland, Japan, Korea, Singapore, and the UK. AWS services are trusted by millions of active customers around the world monthly -- including the fastest growing startups, largest enterprises, and leading government agencies -- to power their infrastructure, make them more agile, and lower costs. To learn more about AWS, visit https://aws.amazon.com.
-      
-    link: "https://aws.amazon.com"
-    photo: AWS_logo_RGB.png
-
 associate:
   - 
     alt-text: "Python Weekly Learning"
@@ -59,6 +49,16 @@ associate:
       Also, Residents of India get a 40% discount on WPE and all of Reuven Lerner's courses -- including NumPy, Pandas, and object-oriented Python.
     link: "http://WeeklyPythonExercise.com/"
     photo: wpe-logo.svg
+
+community partner: 
+  - 
+    alt-text: "aws"
+    class: "community partner"
+    description: >-
+      For 10 years, Amazon Web Services has been the world’s most comprehensive and broadly adopted cloud platform. AWS offers over 90 fully featured services for compute, storage, databases, analytics, mobile, Internet of Things (IoT) and enterprise applications from 42 Availability Zones (AZs) across 16 geographic regions in the U.S., Australia, Brazil, Canada, China, Germany, India, Ireland, Japan, Korea, Singapore, and the UK. AWS services are trusted by millions of active customers around the world monthly -- including the fastest growing startups, largest enterprises, and leading government agencies -- to power their infrastructure, make them more agile, and lower costs. To learn more about AWS, visit https://aws.amazon.com.
+      
+    link: "https://aws.amazon.com"
+    photo: AWS_logo_RGB.png
 
 inkind:
   - 
