@@ -12,6 +12,7 @@ jobs:
         uses: HydPy/hydpyconf2019@ci-cd
         with:
           command: |
+            source .bashrc
             /root/deploy.py 2019
           host: ${{ secrets.HOST }}
           user: ${{ secrets.USER }}
