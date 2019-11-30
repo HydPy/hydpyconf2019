@@ -246,7 +246,7 @@
 	}
 }
 
-.modal-speaker {
+.modal-speaker, .modal-sponsor {
 	.profile-image {
 		width: 120px;
 	}
@@ -266,7 +266,7 @@
 		
 		.close {
 			width: 45px;
-				height: 45px;
+			height: 45px;
 			margin: 0;
 			padding: 0;
 			font-size: 2.5rem;
@@ -287,6 +287,17 @@
 		}
 	}
 
+}
+
+.modal-sponsor{
+	.profile-image{
+		width: 250px;
+	}
+	&__photo{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 }
 
 /* Schedule Section */
