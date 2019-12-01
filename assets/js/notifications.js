@@ -2,13 +2,13 @@
 const publicVapidKey =
   "BAK9aUUilxzljIZVaKm8gjt6MWYsXQFbhluMMCFCddHbWug4_H48Q4XtbCwBSPZ9V3wcNUGr92twrEbmGMyABKU";
 const firebaseConfig = {
-  apiKey: "AIzaSyCZ8gbWs9FLlzw93BOj_OQzlWwd_F1N-IY",
-  authDomain: "pyconhyd.firebaseapp.com",
-  databaseURL: "https://pyconhyd.firebaseio.com",
-  projectId: "pyconhyd",
-  storageBucket: "pyconhyd.appspot.com",
+  // apiKey: "AIzaSyCZ8gbWs9FLlzw93BOj_OQzlWwd_F1N-IY",
+  // authDomain: "pyconhyd.firebaseapp.com",
+  // databaseURL: "https://pyconhyd.firebaseio.com",
+  // projectId: "pyconhyd",
+  // storageBucket: "pyconhyd.appspot.com",
   messagingSenderId: "254977934750",
-  appId: "1:254977934750:web:9f1ad0357425e5718d828f"
+  // appId: "1:254977934750:web:9f1ad0357425e5718d828f"
 };
 firebase.initializeApp(firebaseConfig);
 const messaging = firebase.messaging();
@@ -42,9 +42,6 @@ messaging.onMessage(payload => {
 function resetUI() {
   clearMessages();
   showToken("loading...");
-  // [START get_token]
-  // Get Instance ID token. Initially this makes a network call, once retrieved
-  // subsequent calls to getToken will return from cache.
   messaging
     .getToken()
     .then(currentToken => {
@@ -72,7 +69,7 @@ function resetUI() {
 function showToken(currentToken) {
   // Show token in console and UI.
   const tokenElement = document.querySelector("#token");
-  tokenElement.textContent = currentToken;
+  !!tokenElement && (tokenElement.textContent = currentToken);
 }
 
 function sendTokenToServer(currentToken) {
@@ -97,10 +94,12 @@ function setTokenSentToServer(sent) {
 
 function showHideDiv(divId, show) {
   const div = document.querySelector("#" + divId);
-  if (show) {
-    div.style = "display: visible";
-  } else {
-    div.style = "display: none";
+  if (!!div) {
+    if (show) {
+      div.style = "display: visible";
+    } else {
+      div.style = "display: none";
+    }
   }
 }
 
@@ -142,20 +141,23 @@ function deleteToken() {
 
 // [TODO] - Write code to show custom UI Notification for website
 function appendMessage(payload) {
-  const messagesElement = document.querySelector("#messages");
-  const dataHeaderELement = document.createElement("h5");
-  const dataElement = document.createElement("pre");
-  dataElement.style = "overflow-x:hidden;";
-  dataHeaderELement.textContent = "Received message:";
-  dataElement.textContent = JSON.stringify(payload, null, 2);
-  messagesElement.appendChild(dataHeaderELement);
-  messagesElement.appendChild(dataElement);
+  // const messagesElement = document.querySelector("#messages");
+  // const dataHeaderELement = document.createElement("h5");
+  // const dataElement = document.createElement("pre");
+  // dataElement.style = "overflow-x:hidden;";
+  // dataHeaderELement.textContent = "Received message:";
+  // dataElement.textContent = JSON.stringify(payload, null, 2);
+  // messagesElement.appendChild(dataHeaderELement);
+  // messagesElement.appendChild(dataElement);
+  window.alert(JSON.stringify(payload.notification, null, 2));
 }
 
 function clearMessages() {
   const messagesElement = document.querySelector("#messages");
-  while (messagesElement.hasChildNodes()) {
-    messagesElement.removeChild(messagesElement.lastChild);
+  if (!!messagesElement) {
+    while (messagesElement.hasChildNodes()) {
+      messagesElement.removeChild(messagesElement.lastChild);
+    }
   }
 }
 
