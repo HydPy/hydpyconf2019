@@ -1,7 +1,13 @@
 const publicVapidKey =
   "BAK9aUUilxzljIZVaKm8gjt6MWYsXQFbhluMMCFCddHbWug4_H48Q4XtbCwBSPZ9V3wcNUGr92twrEbmGMyABKU";
 const firebaseConfig = {
-  messagingSenderId: "254977934750"
+  apiKey: "AIzaSyCZ8gbWs9FLlzw93BOj_OQzlWwd_F1N-IY",
+  authDomain: "pyconhyd.firebaseapp.com",
+  databaseURL: "https://pyconhyd.firebaseio.com",
+  projectId: "pyconhyd",
+  storageBucket: "pyconhyd.appspot.com",
+  messagingSenderId: "254977934750",
+  appId: "1:254977934750:web:9f1ad0357425e5718d828f"
 };
 firebase.initializeApp(firebaseConfig);
 const messaging = firebase.messaging();
