@@ -147,7 +147,6 @@ function appendMessage(payload) {
   // dataElement.textContent = JSON.stringify(payload, null, 2);
   // messagesElement.appendChild(dataHeaderELement);
   // messagesElement.appendChild(dataElement);
-  window.alert(JSON.stringify(payload.notification, null, 2));
 }
 
 function clearMessages() {
