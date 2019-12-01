@@ -1,7 +1,7 @@
 const publicVapidKey =
   "BAK9aUUilxzljIZVaKm8gjt6MWYsXQFbhluMMCFCddHbWug4_H48Q4XtbCwBSPZ9V3wcNUGr92twrEbmGMyABKU";
 const firebaseConfig = {
-  messagingSenderId: "254977934750",
+  messagingSenderId: "254977934750"
 };
 firebase.initializeApp(firebaseConfig);
 const messaging = firebase.messaging();
@@ -98,7 +98,6 @@ function showHideDiv(divId, show) {
 
 function requestPermission() {
   console.log("Requesting permission...");
-  // [START request_permission]
   Notification.requestPermission().then(permission => {
     if (permission === "granted") {
       console.log("Notification permission granted.");
@@ -163,6 +162,7 @@ function updateUIForPushEnabled(currentToken) {
 function updateUIForPushPermissionRequired() {
   showHideDiv(tokenDivId, false);
   showHideDiv(permissionDivId, true);
+  requestPermission();
 }
 
 resetUI();
