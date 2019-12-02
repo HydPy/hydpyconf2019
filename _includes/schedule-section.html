@@ -31,14 +31,14 @@
 					<!-- workshop structure dynamic -->
 					<div class="row item item-talk">
 
-						<div class="col-md-4">
+						<div class="col-md-3">
 							<div class="meta">
 								<h4 class="time mb-3 center-align">{{ workshop.time }}</h4>
 							</div><!--//meta-->
 						</div>
 
 						{% for track in workshop.tracks %}
-							{% assign colwidth = 8 | divided_by: forloop.length %}
+							{% assign colwidth = 9 | divided_by: forloop.length %}
 							<div class="col-md-{{ colwidth }}">
 								<div class="content">
 									<h3 class="title mb-3">{% include link-workshop.html %}</h3>
