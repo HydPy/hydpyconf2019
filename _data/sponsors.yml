@@ -1,4 +1,12 @@
---- 
+---
+platinum:
+  -
+    alt-text: "Atlassian"
+    class: "Platinum"
+    description: ""
+    link: "https://www.atlassian.com/"
+    photo: Atlassian-horizontal-blue@2x-rgb.png
+
 learning partner:
   -
     alt-text: "ISB INSTITUTE OF DATA SCIENCE (IIDS)"
@@ -9,14 +17,26 @@ learning partner:
       Also, IIDS aims to designs and develop AI and analytics solutions to industry to address complex business problems.
     link: "https://www.isb.edu/advanced-management-programme-in-business-analytics"
     photo: IIDS.png
+
 gold:
   - 
-    alt-text: "pramati"
+    alt-text: "Pramati"
     class: "gold"
     description: >-
       Pramati Technologies, a privately held software company, builds independent technology businesses focused on profitable, well-defined markets in digital, social, mobile, and cloud computing. Among its ventures are the low-code platform WaveMaker Inc., the micro apps management  platform SpotCues Inc., and the enterprise innovation services company Imaginea Technologies Inc. Pramati seeds ideas through its Mountain View based startup accelerator arm, Pramati Prism that nurtures and scales them into profitable ventures. The portfolio includes the strong authentication service provider ThumbSignin, the next-gen app deployment platform HyScale, micro-conversions solution Chatlets.ai, and the API management platform Apitive.
     link: "https://www.pramati.com/"
     photo: pramati.png
+
+  - 
+    alt-text: "Fossee"
+    class: "gold"
+    description: >-
+      <p>FOSSEE (Free and Open Source Software in Education) Project promotes the use of FLOSS (Free/ Libre and Open Source Software) tools to improve the quality of education in our country. We aim to reduce dependency on proprietary software in educational institutions. We encourage the use of FLOSS tools through various activities such as Textbook Companions, Lab Migration, Workshops, Conferences, Forums, Software Development and Others. We develop and upgrade existing tools to meet the requirements of academia and research. We also offer Summer Fellowship to students and give them an opportunity to work with FLOSS.</p>
+      
+      <p>The FOSSEE project is based at the Indian Institute of Technology Bombay (IITB) and is funded by the National Mission on Education through Information and Communication Technology (ICT), Ministry of Human Resources and Development, Government of India.</p>
+    link: "https://fossee.in/"
+    photo: fossee_logo.png
+
 silver: 
   - 
     alt-text: "deepsource"
