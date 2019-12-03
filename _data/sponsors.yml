@@ -74,7 +74,8 @@ associate:
   -
     alt-text: "Zentropy"
     class: "Associate"
-    description: ""
+    description: >
+      Zentropy is a financial technology company that aims to disrupt capital market space with niche engineering, technology, and processes. Zentropy's focus is on providing custom technology platform solutions and consulting services that require a deep understanding of market microstructure, financial security data modeling, and machine learning techniques.  Zentropy's expertise lies in developing trading systems, data warehouses, and cloud-based scalable infrastructure. 
     link: "https://www.zentropytech.com/"
     photo: zentropy.png
 
@@ -115,6 +116,7 @@ meal partner:
   - 
     alt-text: GreenBox
     class: "Meal Partner"
-    description: ""
+    description: >
+      Health In a Box - The Green Box is Hyderabad's premier gourmet food delivery service. At The Green Box, we aim to bring about a lifestyle change by providing well-balanced nutritious meals for a healthier, lighter and happier you! After months of intensive experimentation, our team of chefs and dieticians has designed meal plans that are not only healthy but also tasty.
     link: "http://www.thegreenbox.co/"
     photo: greenbox.png
