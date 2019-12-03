@@ -11,7 +11,7 @@ Please read about the measures taken and help us with more suggestions you may h
 - All tracks on both workshop and conference day and lunch area are wheelchair accessible.
 - Washrooms are wheelchair accessible at the venue
 - The Volunteers and attendees will be briefed on the importance of this
-- Full Session Schedule is provided at backside of Notebooks for reference and also printable version available in a large banner near entrance
+- Full Session Schedule is provided at backside of Notebooks and ID Cards
 - Floor map will be provided before the conference to each of the participant
 - A quick brief will be given before start of workshop/conference to all differently-abled people along with volunteers for seamless experience
 - Signboards are used in the entire pathways to better access to the venue

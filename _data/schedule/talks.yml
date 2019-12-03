@@ -61,7 +61,7 @@
   -
     time: "2:30PM - 3:00PM"
     tracks:
-      - {title: "Atlassian Sponsored Talk",speaker: "TBD",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Atlassian Sponsored Talk - Machine Learning in Healthcare",speaker: "Saurabh Khandelwal",description: "",category: "",audience_type: "",venue: "TBD"}
       - {title: "Understanding Air Pollution pre+post Diwali in Indian cities using Satellite Imagery",speaker: "Gokulavasan Murali",description: "",category: "",audience_type: "",venue: "TBD"}
   -
     time: "3:00PM - 3:30PM"
