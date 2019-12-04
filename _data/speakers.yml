@@ -255,7 +255,7 @@ pradhvan_bisht:
   keynote: false
   name: Pradhvan Bisht
   social:
-    website: https://blogs.dgplug.org/pradhvan/
+    blog: https://blogs.dgplug.org/pradhvan/
     twitter: https://twitter.com/BishtPradhvan
   description:
     <p>
@@ -268,7 +268,7 @@ parul_pandey:
   keynote: false
   name: Parul Pandey
   social:
-    website: https://medium.com/@parulnith
+    medium: https://medium.com/@parulnith
     twitter: https://twitter.com/pandeyparul
   description:
     <p>
@@ -324,7 +324,7 @@ gokul:
 
 sri_kumar:
   keynote: false
-  name: Sri Kumar
+  name: Srikumar Subramanian
   social:
     linkedin: https://www.linkedin.com/in/srikumarks
     twitter: https://twitter.com/srikumarks
