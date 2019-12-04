@@ -27,19 +27,19 @@
   -
     time: "11:00AM - 11:30AM"
     tracks:
-      - {title: "Managing Production Data Prep Pipelines",speaker: "Dr. Venkata Pingali",description: "",category: "",audience_type: "",venue: "TBD"}
-      - {title: "Celery is digestive",speaker: "Abhishek Mishra",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Managing Production Data Prep Pipelines",speaker: "venkata_pingali",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Celery is digestive",speaker: "abhishek_mishra",description: "",category: "",audience_type: "",venue: "TBD"}
   -
     time: "11:30AM - 12:00PM"
     tracks:
-      - {title: "Differentiable programming",speaker: "Srikumar Subramanian",description: "",category: "",audience_type: "",venue: "TBD"}
-      - {title: "Continuous Quality for Python: What, How and Why",speaker: "Sanket Saurav",description: "",category: "",audience_type: "",venue: "TBD"}
-      
+      - {title: "Differentiable programming",speaker: "sri_kumar",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Continuous Quality for Python: What, How and Why",speaker: "sanket_saurav",description: "",category: "",audience_type: "",venue: "TBD"}
+
   -
     time: "12:00PM - 12:30PM"
     tracks:
-      - {title: "Nodejs in Python, R in Python",speaker: "Anand S",description: "",category: "",audience_type: "",venue: "TBD"}
-      - {title: "The Past and the dubious: Concept Drift",speaker: "Snehith Allamraju",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Nodejs in Python, R in Python",speaker: "anand_s",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "The Past and the dubious: Concept Drift",speaker: "snehith_allamraju",description: "",category: "",audience_type: "",venue: "TBD"}
 
   -
     time: "12:30PM - 1:00PM"
@@ -56,13 +56,13 @@
   -
     time: "2:00PM - 2:30PM"
     tracks:
-      - {title: "Scalable Automated Machine learning with H2O in Python",speaker: "Parul Pandey",description: "",category: "",audience_type: "",venue: "TBD"}
-      - {title: "Python's tale of concurrency",speaker: "Pradhvan Bisht",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Scalable Automated Machine learning with H2O in Python",speaker: "parul_pandey",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Python's tale of concurrency",speaker: "pradhvan_bisht",description: "",category: "",audience_type: "",venue: "TBD"}
   -
     time: "2:30PM - 3:00PM"
     tracks:
       - {title: "Atlassian Sponsored Talk - Machine Learning in Healthcare",speaker: "Saurabh Khandelwal",description: "",category: "",audience_type: "",venue: "TBD"}
-      - {title: "Understanding Air Pollution pre+post Diwali in Indian cities using Satellite Imagery",speaker: "Gokulavasan Murali",description: "",category: "",audience_type: "",venue: "TBD"}
+      - {title: "Understanding Air Pollution pre+post Diwali in Indian cities using Satellite Imagery",speaker: "gokul",description: "",category: "",audience_type: "",venue: "TBD"}
   -
     time: "3:00PM - 3:30PM"
     tracks:
@@ -86,7 +86,7 @@
     type: 'keynote'
     tracks:
       - {title: "Closing Keynote", speaker: "zainab_bawa", venue: "TBD"}
-  
+
   -
     time: "5:45PM - 6:00PM"
     type: 'other'
