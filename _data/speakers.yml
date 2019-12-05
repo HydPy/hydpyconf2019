@@ -260,7 +260,7 @@ pradhvan_bisht:
   name: Pradhvan Bisht
   photo: pradhvan_bisht.jpg
   social:
-    rss: https://blogs.dgplug.org/pradhvan/
+    medium: https://blogs.dgplug.org/pradhvan/
     twitter: https://twitter.com/BishtPradhvan
   description:
     <p>
@@ -321,7 +321,7 @@ gokul:
   name: Gokulavasan Murali
   photo: gokul.jpg
   social:
-    rss: https://gok03.com/
+    medium: https://gok03.com/
     twitter: https://twitter.com/gokul0369
   description:
     <p>

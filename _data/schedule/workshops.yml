@@ -23,7 +23,7 @@
           efficient. This would be a one and half hour workshop so we'd avoid discussing
           the very basics of Containers, Virtual Machines of Microservice, though we'll
           focus on to understand how to approach containerizing an application.</p>
-          
+
           <p><b>Brief Agenda</b><br/>
           Introduction to Docker<br/>
           Introduction to Docker Image<br/>
@@ -105,7 +105,7 @@
           make your own cloud; that’s what devs think but it’s not really true. It’s the
           time to decode k8s and devs need to be empowered. Time to become a cloud native
           dev and know what’s happening after code push ( infra magic :) )</p>
-          
+
           <p><b>Brief Agenda</b><br/>
           Introduction to Kubernetes<br/>
           Kubernetes Components<br/>
@@ -288,7 +288,7 @@
           <b>Brief Agenda</b><br/>
           <p>The workshop will be primarily highlighting the necessity of understanding the
           outputs of ML models to build a profound understanding of how ML works.</p>
-          
+
           <p>At the end of the workshop you’ll know how to explain your model to possible anyone!
           This makes it easier for you to sell your Business idea.</p>
 
@@ -305,13 +305,13 @@
         venue: Track 2
       -
         title: Numba and Dask
-        speaker: Vijay Yellepeddi
+        speaker: vijay_yellepeddi
         description: >
           <p>In this talk, I would introduce dask & numba, two libraries which enable
           parallelism at scale and compare it with Apache Spark. I would then use a
           simple example to demonstrate their usage.  I'll briefly talk about using it
           with GPUs.</p>
-          
+
           <p><b>Brief Agenda</b><br/>
           State of parallelism in Python (briefly talk about async/await)<br/>
           Overview of Python's scientific ecosystem and its current landscape<br/>
