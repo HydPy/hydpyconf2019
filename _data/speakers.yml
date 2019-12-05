@@ -66,7 +66,7 @@ grishma_jena:
   keynote: false
   name: Grishma Jena
   job: Data Scientist
-  # photo: ""
+  photo: grishma.jpeg
   company: IBM Data & AI
   social:
     twitter: https://twitter.com/DebateLover
@@ -91,7 +91,7 @@ grishma_jena:
 arun_chaudhary:
   keynote: false
   name: Arun Chaudhary
-  # photo: 
+  photo: arun_chaudhary.jpg
   social:
     twitter: https://twitter.com/arunc009
   description: >
@@ -107,7 +107,7 @@ arun_chaudhary:
 yogesh_kothiya:
   keynote: false
   name: Yogesh Kothiya
-  # photo: 
+  photo: yogesh_kothiya.jpeg
   social:
     twitter: https://twitter.com/Yogesh_Kothiya
     linkedin: https://www.linkedin.com/in/yogeshkothiya/
@@ -126,7 +126,7 @@ bhanu_k:
   name: Bhanu K
   job: Principal Data Scientist
   company: Gramener
-  # photo: 
+  photo: bhanu_k.jpeg
   social:
     twitter: https://twitter.com/thoughtisdead
   description: >
@@ -136,7 +136,7 @@ bhanu_k:
 purusharth_saxena:
   keynote: false
   name: Purusharth Saxena
-  # photo: 
+  photo: purusharth_saxena.jpg
   social:
     twitter: https://twitter.com/undefined_pru
   description: >
@@ -156,7 +156,7 @@ laisha_wadhwa:
   name: Laisha Wadhwa
   job: Undergraduate Student
   company: IIIT, Sricity
-  # photo: 
+  # photo:
   description: >
     <p>I am Laisha Wadhwa, a computer Science Engineer in making. I work with Machines and
     various tools every day to make machines smarter and aware of their surroundings.
@@ -185,3 +185,182 @@ jaidev_deshpande:
     He works on the architecture and development of data driven applications.
     He's an active member of the Python community - you're likely to run into him at
     FOSS events.</p>
+
+abhishek_mishra:
+  keynote: false
+  name: Abhishek Mishra
+  photo: abhishek_mishra.jpg
+  social:
+    linkedin: https://linkedin.com/in/stalwartcoder
+    twitter: https://twitter.com/stalwartcoder
+  description:
+    <p>
+      I’m Abhishek 👨‍💻, Community first person.
+      I organize community meetups and events.
+      I am also Pythonista and had already given a talk in PyCon India 2019 and PyCon Indonesia 2019.
+      I love to code in python and always give preference to Python when it comes to solve any problem,
+      let it be a web services, desktop application or automation tasks.
+      I am intermediate user in cloud computing and exploring same with python.
+      I’ve been to many community events and conferences, boot-camp for talks and session (Of course related to Python & Dev’s 😎).
+      I try to help Dev communities fullest to my capacity.
+      For more information you can have a look at my LinkedIn profile.
+    </p>
+
+sanket_saurav:
+  keynote: false
+  name: Sanket Saurav
+  photo: sanket_saurav.jpg
+  social:
+    twitter: https://twitter.com/sanketsaurav
+  description:
+    <p>
+      Sanket (@sanketsaurav) is co-founder at DeepSource.
+      He’s 50% developer and 50% designer.
+      He’s been dabbling with computers since the age of 10, and had started his first venture at 18.
+      He loves the Web and likes building cool stuff that matter.
+      His languages of choice are Python, Go and JavaScript, and he’s been building production apps using these for the past two years.
+      He’s also spoken at more than 50 events and hackathons across the country on open source technologies including Python, HTML5 and web applications in general.
+
+      Sanket also contributes extensively to open-source, with contributions to projects like
+      Django, Celery and Docker, and original Python modules like S3Tree and mimelib.
+    </p>
+
+vijay_yellepeddi:
+  keynote: false
+  name: Vijay Yellepeddi
+  photo: vijay_yellepeddi.png
+  social:
+    github: https://www.github.com/vijaysharmay
+    twitter: https://twitter.com/vijayyellepeddi
+  description:
+    <p>
+      Been writing code from 9+ years.
+      Passionate about Math, Distributed Computing, Graphics Programming & Programming in general.
+      Love exploring new languages and frameworks.
+    </p>
+
+venkata_pingali:
+  keynote: false
+  name: Dr. Venkata Pingali
+  photo: venkata_pingali.jpg
+  social:
+    linkedin: https://linkedin.com/in/pingali
+    twitter: https://twitter.com/pingali
+  description:
+    <p>
+      Dr. Venkata Pingali is an academic-turned entrepreneur.
+      He works at the intersection of data, ML algorithms, and systems.
+      He builds data products to speed up adoption of ML in the enterprise.
+      Scribble Data, Dr. Pingali’s firm, offers a ML engineering platform and managed service.
+      Dr. Pingali has a BTech from IIT Mumbai and PhD from USC.
+    </p>
+
+pradhvan_bisht:
+  keynote: false
+  name: Pradhvan Bisht
+  photo: pradhvan_bisht.jpg
+  social:
+    medium: https://blogs.dgplug.org/pradhvan/
+    twitter: https://twitter.com/BishtPradhvan
+  description:
+    <p>
+      A Pythonista that loves playing around with web technologies and has an interest in backend development.
+      Strongly believes in the FOSS ideology thus tries to give to the FOSS communities however he can.
+      Also has also been a speaker in some regional conferences around India, PyDelhi Conf, and PyConf Hyderabad.
+    </p>
+
+parul_pandey:
+  keynote: false
+  name: Parul Pandey
+  photo: parul_pandey.jpeg
+  social:
+    medium: https://medium.com/@parulnith
+    twitter: https://twitter.com/pandeyparul
+  description:
+    <p>
+      I am a Data Science professional having worked for a while in the Analytics wing of the Power industry.
+      I was earlier associated with Tata Power India, where I and my team employed the latest ML and Analytical tools to solve pressing problems of power outages and load sheddings in India.
+
+      Academically, I am an engineering professional with a Bachelor of Technology (B.Tech.) focused in Electrical Engineering from the National Institute of Technology, Hamirpur.
+
+      Currently, I am a Data Science Evangelist at H2O.ai
+      I combine Data Science, evangelism and community in my work.
+      My emphasis is to spread the information about Data Science to as many people as possible.
+      In a way, I try to break down the Data Science jargon for the masses through my blogs and meetups.
+      I am also the organizer of the WimLDS, Hyderabad, an organization that works for increasing the diversity of women in the Data Science space.
+
+      I have contributed articles related to Data Science and Artificial Intelligence to various national and international publications (including Chinese, German and Spanish).
+      The prominent ones include Towards Data Science, Datacamp, KDNuggets, Opensource.com, Analytics Vidhya and few others.
+    </p>
+
+snehith_allamraju:
+  keynote: false
+  name: Snehith Allamraju
+  photo: snehith.jpeg
+  social:
+    linkedin: https://www.linkedin.com/in/snehithallamraju/
+    twitter: https://twitter.com/watrutalkin
+  description:
+    <p>
+      I am a Business Intelligence Manager and a Data science, analytics enthusiast.
+      I have around 12 years of experience working with data, databases, reporting, visualization, analytics and lately data science projects.
+      I am an SAP, Tableau and Azure certified data professional, and I love to dwell at the confluence of data, technology, art and Strategy.
+
+      I also strongly believe in community based learning, after I graduated from the Indian School of Business with a Masters in Business Analytics.
+      I co-organize the Hyderabad Tableau User Group, and I am the Meetup Ambassador for the ODSC Hyderabad Meetup chapter.
+      I also help local tech-loving community by tweet from my non-personal handle HydTechEvents.
+
+      When not with data, you can find me humming to an Ilayaraja or an A.R.Rahman tune, Cycling on my Bergamont, trying my photography skills,
+      or looking around the town for new restaurants to indulge in!
+
+      Almost forgot, Python > R!
+    </p>
+
+gokul:
+  keynote: false
+  name: Gokulavasan Murali
+  photo: gokul.jpg
+  social:
+    medium: https://gok03.com/
+    twitter: https://twitter.com/gokul0369
+  description:
+    <p>
+      Gokul is a Urban + Mobility Enthusiast.
+      He was the co-founder and CTO of Flytta, an enterprise mobility platform.
+      Currently, he is a freelancer and consultant.
+    </p>
+
+sri_kumar:
+  keynote: false
+  name: Srikumar Subramanian
+  photo: srikumar.jpeg
+  social:
+    linkedin: https://www.linkedin.com/in/srikumarks
+    twitter: https://twitter.com/srikumarks
+    github: https://github.com/srikumarks
+  description:
+    <p>
+      A left-right brain confused techie with a history in media technology and a penchant for tinkering with weird programming languages, music, mathematics, trekking, cycling, and who is working on transitioning from curd rice and filter coffee to real food.
+
+      Worked at all levels of video production technology from handling codecs to OpenGL based rendering of editing "timelines" to automatic timeline construction. Fluent in signal processing techniques for multimedia content analysis. Implemented two generations of muvee's automatic video editing engine for early camera phones with tightly coupled hardware.
+
+      I hold a Ph.D. from National University of Singapore (2013) for work done on computational modeling of gamakas of carnatic music, within the Communications and New Media department.
+
+      Currently I head Imaginea Labs (https://labs.imaginea.com) where our current main directions are applied machine learning including neural networks, blockchain tech and virtual and augmented reality design.
+
+      I also run Patantara - a carnatic music education site (https://patantara.com) - for publishing and sharing high quality auto-transliterating music notation, and learning using tools built around it.
+    </p>
+
+anand_s:
+  keynote: false
+  name: Anand S
+  photo: anand_s.png
+  social:
+    linkedin: https://www.linkedin.com/in/sanand0
+    twitter: https://twitter.com/sanand0
+  description:
+    <p>
+      Anand is a co-founder of Gramener, a data science company. He is recognized as one of India’s top 10 data scientists. He leads a team that tell beautiful visual data stories.
+
+      Anand is a gold medalist at IIM Bangalore and an alumnus of IIT Madras, London Business School, IBM, Infosys, Lehman Brothers, and BCG.
+    </p>
