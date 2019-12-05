@@ -66,7 +66,7 @@ grishma_jena:
   keynote: false
   name: Grishma Jena
   job: Data Scientist
-  # photo: ""
+  photo: grishma.jpeg
   company: IBM Data & AI
   social:
     twitter: https://twitter.com/DebateLover
@@ -91,7 +91,7 @@ grishma_jena:
 arun_chaudhary:
   keynote: false
   name: Arun Chaudhary
-  # photo:
+  photo: arun_chaudhary.jpg
   social:
     twitter: https://twitter.com/arunc009
   description: >
@@ -107,7 +107,7 @@ arun_chaudhary:
 yogesh_kothiya:
   keynote: false
   name: Yogesh Kothiya
-  # photo:
+  photo: yogesh_kothiya.jpeg
   social:
     twitter: https://twitter.com/Yogesh_Kothiya
     linkedin: https://www.linkedin.com/in/yogeshkothiya/
@@ -126,7 +126,7 @@ bhanu_k:
   name: Bhanu K
   job: Principal Data Scientist
   company: Gramener
-  # photo:
+  photo: bhanu_k.jpeg
   social:
     twitter: https://twitter.com/thoughtisdead
   description: >
@@ -136,7 +136,7 @@ bhanu_k:
 purusharth_saxena:
   keynote: false
   name: Purusharth Saxena
-  # photo:
+  photo: purusharth_saxena.jpg
   social:
     twitter: https://twitter.com/undefined_pru
   description: >
@@ -189,6 +189,7 @@ jaidev_deshpande:
 abhishek_mishra:
   keynote: false
   name: Abhishek Mishra
+  photo: abhishek_mishra.jpg
   social:
     linkedin: https://linkedin.com/in/stalwartcoder
     twitter: https://twitter.com/stalwartcoder
@@ -208,6 +209,7 @@ abhishek_mishra:
 sanket_saurav:
   keynote: false
   name: Sanket Saurav
+  photo: sanket_saurav.jpg
   social:
     twitter: https://twitter.com/sanketsaurav
   description:
@@ -226,6 +228,7 @@ sanket_saurav:
 vijay_yellepeddi:
   keynote: false
   name: Vijay Yellepeddi
+  photo: vijay_yellepeddi.png
   social:
     github: https://www.github.com/vijaysharmay
     twitter: https://twitter.com/vijayyellepeddi
@@ -239,6 +242,7 @@ vijay_yellepeddi:
 venkata_pingali:
   keynote: false
   name: Dr. Venkata Pingali
+  photo: venkata_pingali.jpg
   social:
     linkedin: https://linkedin.com/in/pingali
     twitter: https://twitter.com/pingali
@@ -254,8 +258,9 @@ venkata_pingali:
 pradhvan_bisht:
   keynote: false
   name: Pradhvan Bisht
+  photo: pradhvan_bisht.jpg
   social:
-    blog: https://blogs.dgplug.org/pradhvan/
+    rss: https://blogs.dgplug.org/pradhvan/
     twitter: https://twitter.com/BishtPradhvan
   description:
     <p>
@@ -267,6 +272,7 @@ pradhvan_bisht:
 parul_pandey:
   keynote: false
   name: Parul Pandey
+  photo: parul_pandey.jpeg
   social:
     medium: https://medium.com/@parulnith
     twitter: https://twitter.com/pandeyparul
@@ -290,6 +296,7 @@ parul_pandey:
 snehith_allamraju:
   keynote: false
   name: Snehith Allamraju
+  photo: snehith.jpeg
   social:
     linkedin: https://www.linkedin.com/in/snehithallamraju/
     twitter: https://twitter.com/watrutalkin
@@ -312,9 +319,10 @@ snehith_allamraju:
 gokul:
   keynote: false
   name: Gokulavasan Murali
+  photo: gokul.jpg
   social:
-    website: https://gok03.com/
-    twitter: https://twitter.com/gokul.0369
+    rss: https://gok03.com/
+    twitter: https://twitter.com/gokul0369
   description:
     <p>
       Gokul is a Urban + Mobility Enthusiast.
@@ -325,6 +333,7 @@ gokul:
 sri_kumar:
   keynote: false
   name: Srikumar Subramanian
+  photo: srikumar.jpeg
   social:
     linkedin: https://www.linkedin.com/in/srikumarks
     twitter: https://twitter.com/srikumarks
@@ -345,6 +354,7 @@ sri_kumar:
 anand_s:
   keynote: false
   name: Anand S
+  photo: anand_s.png
   social:
     linkedin: https://www.linkedin.com/in/sanand0
     twitter: https://twitter.com/sanand0
