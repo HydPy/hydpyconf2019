@@ -15,6 +15,17 @@ title: Code of conduct
 
 <p>Do not insult or put down attendees or engage in any action that violates the open, welcoming and sharing spirit of the conference. Be kind and sensitive to the people around you when you are attending the conference, and avoid any kind of offensive or degrading behavior.</p>
 
+### IIIT-Hyderabad specific CoC guidelines
+
+- Any type of littering inside the campus is strictly not allowed, please use dustbins in case you want to trash something
+- IIIT-H is strictly a no-smoking campus so please refrain doing that, in case you want to smoke please go outside of the campus
+- Any type of substance abuse on the campus is strictly prohibited 
+- Any IIIT-H specific CoC violations would be reported to IIIT-H CoC committees and local authorities.
+- The college follows a strict NO Carbonated/Aerated drinks policy, so kindly refrain from carrying such drinks to the venue 
+- Photography has been allowed within the conference areas only. In the common areas of the college like passages, internal roads, and campuses, we request you to refrain from photography 
+- Parking: As there are limited parking slots available, we encourage you to use a public/private transport system as much as possible
+- Since workshops and conference would both be happening on the ground floor, so please avoid going to other floors or other blocks at IIIT-H
+
 <p>If a participant engages in behavior that violates this code of conduct, the conference organizers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.</p>
 
 <p>Thank you for helping to make PyConf Hyderabad a welcoming, friendly event for all.</p>
