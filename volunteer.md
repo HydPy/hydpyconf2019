@@ -4,16 +4,15 @@ title: Volunteer
 ---
 
 <!-- call for volunteers placeholder -->
-<div class="alert alert-info text-center" role="alert">
-    <p>Call for Volunteers is open now !</p>
-</div>
-
 <!-- <div class="alert alert-info text-center" role="alert">
-    <p>Thanks to all the Volunteers who are doing a great work to organize <b>PyConf Hyderabad 2017</b>.</p>
-    <p>Call for Volunteers is <b>Closed now</b>.</p>
-    <p>If you want to attend <b>PyConf Hyderabad 2017</b> you can buy tickets from <a
-            href="http://pyconf.hydpy.org/#tickets">this link</a>.</p>
+    <p>Call for Volunteers is open now !</p>
 </div> -->
+
+<div class="alert alert-info text-center" role="alert">
+    <p>Thanks to all the Volunteers who are doing a great work to organize <b>PyConf Hyderabad 2019</b>.</p>
+    <p>Call for Volunteers is <b>Closed now</b>.</p>
+    <p>See you all at the Conference</p>
+</div>
     
 PyConf Hyderabad is a community event. Here each and every task is done by a volunteer. And here is the opportunity for You to be a part of the community.
 

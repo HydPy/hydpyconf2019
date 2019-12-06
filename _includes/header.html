@@ -4,7 +4,7 @@
 				<nav class="main-nav navbar navbar-expand-lg">
 					<div class="site-logo"><a href="/"><img class="logo-icon" src="assets/images/pyconf_logo.png" alt="logo"></a></div>    
 					
-					<div class="navbar-btn order-lg-2 d-none d-lg-block"><a class="btn btn-secondary scrollto" href="{{ site.tickets_link }}">Buy Tickets</a></div>
+					<!-- <div class="navbar-btn order-lg-2 d-none d-lg-block"><a class="btn btn-secondary scrollto" href="{{ site.tickets_link }}">Buy Tickets</a></div> -->
 					
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
@@ -16,15 +16,22 @@
 								<li class="nav-item" itemprop="name">
 									<a itemprop="url" class="nav-link scrollto" href="index.html{{ navitem.href }}">{{ navitem.item }}</a>
 								</li>
-              				{% endfor %}
+							{% endfor %}
+							<!-- Events Dropdown link -->
+							<li class="nav-item dropdown" itemprop="name">
+								<a itemprop="url" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Events</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" target="_blank" href="https://github.com/HydPy/hydpyconf2019/wiki/PyConf-Hyderabad-2019-Devsprint">Devsprint</a>
+									<a class="dropdown-item" href="openspaces.html">Open Spaces</a>
+								</div>
+							</li>
 							<li class="nav-item" itemprop="name">
 								<a itemprop="url" class="nav-link" href="accessibility.html">Accessibility</a>
 							</li>
 							<!-- More Dropdown link -->
 							<li class="nav-item dropdown" itemprop="name">
 								<a itemprop="url" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">More</a>
-								<div class="dropdown-menu">
-									<a class="dropdown-item" target="_blank" href="https://github.com/HydPy/hydpyconf2019/wiki/PyConf-Hyderabad-2019-Devsprint">Devsprint</a>
+								<div class="dropdown-menu dropdown-menu-right">
 									<a class="dropdown-item" href="volunteer.html">Volunteer</a>
 									<a class="dropdown-item" href="travel.html">Travel</a>
 									<a class="dropdown-item" href="coc.html">Code of Conduct</a>
