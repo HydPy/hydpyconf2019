@@ -1,0 +1,11 @@
+lang: ruby
+branches:
+  only:
+  - master
+before_script:
+- chmod +x deploy.sh
+script:
+- "./deploy.sh"
+env:
+  global:
+    secure: Adi6lptwMH40TfXWKqazWk/GetIgc8SDfmRqOSmpHNqvRfJqBFY5fSR7JG7d3F3aqFsAojhtUcU74zAeX26K7Ei5ZyNdrgypsZKrb3hhwQchnT4mW6bZJxCJWW/xgl2xTHQsFqkG1Qlj9GOQs3wZ3ArNMPZ0pzW7ZK/YNyy6QVYL1DN3VBs0S1FTXRBOMujyvxGTJZ3OsvyI5xId9KBKtzgt0d1p2ShndixDvn4RrYYTZ47gpsZ3cFGbLMs9AflAin8MD4ca6XM85f+0tD7cu42Ll7x2zTpicaz/QG1/0I2ChShwuFF0KWRu2VUaQ+YnqGq49kKt3NQyllKQYzr3wG/IKpJTkyzabqQKUwM4FoDq1sgcWCqjIFO4YF4D+u889AYVf5UMWvXJ66prIkFtCJRpTLugB3S7cTEMIGEfZOG3juyO05Rgdv4ujRfnAdYPDJvpbzlzKfkngrLUYMy4fZEI2PQh34BoWlylxX8a6n4Jf/MM81wbny+gLUzcoZrJ7WGT7eRyH5973pbvWzuO1fICHLSQ4w2gcnb9YKCxwlzYF+jBCyKvYaxvtE1VUCvgu8aE8xASrjKM/wOrciSrWL2z3huz7RGeo9EC0+V36VBmAzfopuZDZTD5opBQye25AQ/vXvVJnqkXB0FQm4YqlA9O4zOcVaSUFaXAcNE4Np0=
