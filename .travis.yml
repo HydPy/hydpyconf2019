@@ -1,4 +1,4 @@
-lang: ruby
+language: ruby
 branches:
   only:
   - master
