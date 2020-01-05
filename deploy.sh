@@ -5,9 +5,7 @@ setup_git() {
   git config --global user.name "Travis CI"
 }
 
-build_files_and_commit_changes() {
-  bundle install
-  bundle exec jekyll build
+commit_changes() {
   git clone https://github.com/HydPy/hydpy.github.io.git pyconf-websites
   cd pyconf-websites
   rm -rf 2019
@@ -23,6 +21,5 @@ push_files_to_github() {
 }
 
 setup_git
-build_files_and_commit_changes
+commit_changes
 push_files_to_github
-
